@@ -17,7 +17,7 @@
   width: 76px;
   height: 20px;
   margin-left: 24px;
-  }
+}
 
 .my-menu {
   position: absolute;
@@ -26,7 +26,7 @@
   right: 35px;
   top: 6px;
   padding: 15px;
-  }
+}
 
 .container1 {
   display: grid;
@@ -39,13 +39,11 @@
 .introh1 {
   font-weight: 700;
   font-size: 40px;
-  color: #172B4D;
+  color: #172b4d;
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -71,7 +69,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   margin-left: 24px;
   margin-right: 24px;
 }
