@@ -1,5 +1,4 @@
 .header-container {
-  display: flex;
   position: relative;
   width: 100%;
   display: flex;
@@ -47,7 +46,6 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   line-height: 52px;
-  display: flex;
   align-items: center;
   margin-bottom: 12px;
   margin-top: 50px;
