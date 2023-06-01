@@ -1,10 +1,10 @@
 .header-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 26px;
-  }
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 26px;
+    }
   
   .my-logo {
     font-family: 'Poppins';
