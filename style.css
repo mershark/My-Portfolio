@@ -8,7 +8,6 @@
 }
 
 .my-logo {
-  display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -22,7 +21,6 @@
 }
 
 .my-menu {
-  display: flex;
   position: absolute;
   width: 18px;
   height: 12px;
@@ -32,7 +30,6 @@
 }
 
 .container1 {
-  display: flex;
   display: grid;
   background-image: url(/images/header-shapes\ mobile.png);
   background-position: cover;
@@ -50,13 +47,13 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   line-height: 52px;
+  display: flex;
   align-items: center;
   margin-bottom: 12px;
   margin-top: 50px;
 }
 
 .intro-p {
-  display: flex;
   color: #344563;
   margin-left: 24px;
   margin-right: 24px;
@@ -69,7 +66,6 @@
 }
 
 .introh2 {
-  display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -81,7 +77,6 @@
 }
 
 .ls {
-  display: flex;
   display: inline;
   list-style: none;
   padding-right: 10px;
@@ -89,6 +84,5 @@
 }
 
 .socials ul {
-  display: flex;
   margin-left: -15px;
 }
