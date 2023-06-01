@@ -1,0 +1,43 @@
+.my-logo {
+    display: flex;
+    justify-content: left;
+}
+
+.my-menu {
+    display: flex;
+    justify-content: right;
+}
+
+.container1 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+}
+
+.introh1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #172B4D;
+}
+
+.intro-p {
+    color: #344563;
+}
+
+.introh2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F8CFF;
+}
+
+.ls {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
