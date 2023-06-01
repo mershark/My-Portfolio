@@ -1,26 +1,36 @@
 .header-container {
+    position: relative;
+    width: 100%;
     display: flex;
-    flex-direction: i;
-}
-
-.my-logo {
-    justify-content: left;
-    margin-left: 24px;
+    justify-content: flex-end;
+    margin-bottom: 26px;
+  }
+  
+  .my-logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: auto;
     margin-top: 20px;
     width: 76px;
     height: 20px;
-    left: auto;
-}
-
-.my-menu {
-    justify-content: right;
-    margin-bottom: 60px;
-    right: auto;
-}
-
+    margin-left: 24px;
+  }
+  
+  .my-menu {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    right: 35px;
+    top: 6px;
+    padding: 15px;
+  }
+  
 .container1 {
     display: grid;
-    background-image: url(header-shapes\ mobile.png);
+    background-image: url(/images/header-shapes\ mobile.png);
     background-position: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -40,7 +50,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .intro-p {
@@ -56,8 +66,11 @@
 }
 
 .introh2 {
-    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     color: #7F8CFF;
     margin-left: 24px;
     margin-right: 24px;
