@@ -1,43 +1,75 @@
-.my-logo {
+.header-container {
     display: flex;
+    flex-direction: i;
+}
+
+.my-logo {
     justify-content: left;
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 76px;
+    height: 20px;
+    left: auto;
 }
 
 .my-menu {
-    display: flex;
     justify-content: right;
+    margin-bottom: 60px;
+    right: auto;
 }
 
 .container1 {
     display: grid;
-    width: 100%;
-    height: 100%;
-    background-color: azure;
+    background-image: url(header-shapes\ mobile.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .introh1 {
     font-weight: 700;
     font-size: 40px;
     color: #172B4D;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-top: 70px;
 }
 
 .intro-p {
     color: #344563;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
 }
 
 .introh2 {
     font-size: 16px;
     font-weight: 500;
     color: #7F8CFF;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .ls {
+    display: inline;
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    padding-right: 10px;
+    padding-left: -5px;
 }
 
-.socials {
-    display: flex;
-    flex-direction: row;
+.socials ul {
+    margin-left: -15px;
 }
