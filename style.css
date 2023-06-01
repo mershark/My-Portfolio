@@ -4,8 +4,8 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 26px;
-  }
-  
+}
+
 .my-logo {
   font-family: 'Poppins';
   font-style: normal;
@@ -18,7 +18,7 @@
   height: 20px;
   margin-left: 24px;
   }
-  
+
 .my-menu {
   position: absolute;
   width: 18px;
@@ -27,7 +27,7 @@
   top: 6px;
   padding: 15px;
   }
-  
+
 .container1 {
   display: grid;
   background-image: url(/images/header-shapes\ mobile.png);
