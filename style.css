@@ -335,8 +335,8 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding: 0%;
-  margin: 0px;
+  padding: 1%;
+  margin: 1px;
 }
 
 .card2-ul2 {
@@ -414,7 +414,7 @@
   gap: 10px;
   width: 126px;
   height: 48px;
-  left: 0px;
+  left: 1px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -506,8 +506,8 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding: 0%;
-  margin: 0px;
+  padding: 1%;
+  margin: 1px;
 }
 
 .card3-ul2 {
@@ -701,7 +701,7 @@
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -828,14 +828,12 @@
   border-radius: 8px;
   margin-left: 24px;
   margin-right: 24px;
-  /*Text*/
+  /* Text */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
@@ -858,7 +856,7 @@
   color: #000;
 }
 
-.list-of-lang{
+.list-of-lang {
   padding-left: 36px;
   padding-right: 36px;
   padding-top: 1%;
@@ -869,13 +867,13 @@
   align-items: center;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   list-style: none;
   margin-top: 12px;
   gap: 10px;
   padding-left: 2%;
-  color:#253858;
+  color: #253858;
 }
 
 .about-myself-html {
@@ -890,7 +888,7 @@
   margin-top: 12px;
   gap: 10px;
   padding-left: 2%;
-  color:#253858;
+  color: #253858;
 }
 
 .about-myself-css {
@@ -898,13 +896,13 @@
   align-items: center;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   list-style: none;
   margin-top: 12px;
   gap: 10px;
   padding-left: 2%;
-  color:#253858;
+  color: #253858;
 }
 
 .skill-framework {
