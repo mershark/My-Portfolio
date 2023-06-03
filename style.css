@@ -85,8 +85,8 @@
   margin-left: -15px;
 }
 
-.works1 {
-  display: flex;
+.works {
+  display: grid;
   align-content: center;
   margin-top: 114px;
   margin-left: 24px;
@@ -256,15 +256,17 @@
   background-color: white;
 }
 
-/* card two starts from here */
-
-.works2 {
-  display: flex;
-  margin-top: 88px;
-  margin-left: 24px;
-  margin-right: 24px;
+.card1-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
+.card1-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+/* card two starts from here */
 .card2 {
   box-sizing: border-box;
   display: flex;
@@ -276,6 +278,7 @@
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-top: 50px;
 }
 
 .card2-h {
@@ -428,14 +431,17 @@
   background-color: white;
 }
 
-/* card three starts from here */
-.works3 {
-  display: flex;
-  margin-top: 88px;
-  margin-left: 24px;
-  margin-right: 24px;
+.card2-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
+.card2-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+/* card three starts from here */
 .card3 {
   box-sizing: border-box;
   display: flex;
@@ -447,6 +453,7 @@
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-top: 50px;
 }
 
 .card3-h {
@@ -599,14 +606,17 @@
   background-color: white;
 }
 
-/* card four starts from here */
-.works4 {
-  display: flex;
-  margin-top: 88px;
-  margin-left: 24px;
-  margin-right: 24px;
+.card3-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
+.card3-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
+/* card four starts from here */
 .card4 {
   box-sizing: border-box;
   display: flex;
@@ -618,6 +628,7 @@
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin-top: 50px;
 }
 
 .card4-h {
@@ -768,6 +779,16 @@
   background-color: white;
 }
 
+.card4-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.card4-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
 /* card about my self starts from here */
 
 .container2 {
@@ -841,14 +862,22 @@
   background: white;
 }
 
+.get-my-resume-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.get-my-resume-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+
 .language-header {
-  display: flex;
+  display: grid;
   height: 24px;
   left: 12px;
   right: 78px;
-  margin-top: 7%;
-  margin-left: 36px;
-  margin-bottom: 7%;
+  margin-bottom: 80%;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -858,9 +887,8 @@
 }
 
 .list-of-lang {
-  padding-left: 36px;
+  padding-left: 0.2px;
   padding-right: 36px;
-  padding-top: 1%;
 }
 
 .about-myself-js {
@@ -906,7 +934,8 @@
   color: #253858;
 }
 
-.skill-framework {
+.main-ul {
+  display: grid;
   list-style: none;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
