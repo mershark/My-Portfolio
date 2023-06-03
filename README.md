@@ -34,7 +34,7 @@
 
 
 
-**Portfolio Project 1**  is a project, where I build the first two section of my portfolio page. No complex coding was required for this exercise. In this Project, I created a GitHub repository "My-Portfolio" where I created" a feature branch "portfolio-page-1". The main aim was to build the first 2 sections of the mobile website using a template provided on figma.
+**Portfolio Project 1**  is a project, where I build the homepage of my portfolio page. No complex coding was required for this exercise. HTML and CSS were only used.
 
 ## 🛠 Built With <a name="built-with"></a>
 
