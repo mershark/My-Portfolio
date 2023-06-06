@@ -49,10 +49,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Understand how to parse a Figma design to create a UI.**
-- **Build a personal portfolio site.**
-- **Flexbox to place elements in the page.**
-- **Use images and backgrounds to enhance the look of the website.**
+- **Landing page**
+- **Projects**
+- **Contact me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
