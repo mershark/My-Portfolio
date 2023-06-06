@@ -1011,12 +1011,13 @@
   border: 1px solid #cfd8dc;
   margin-bottom: 20px;
   height: 40px;
-  width: 86%;
+  width: 71%;
+  padding-left: 16px;
+  padding-right: 38px;
 }
 
 #form-name::placeholder {
   color: #172b4d;
-  padding-left: 16px;
 }
 
 #form-email {
@@ -1036,12 +1037,13 @@
   border-radius: 8px;
   margin-bottom: 20px;
   height: 40px;
-  width: 86%;
+  width: 71%;
+  padding-left: 16px;
+  padding-right: 38px;
 }
 
 #form-email::placeholder {
   color: #172b4d;
-  padding-left: 16px;
 }
 
 #form-message {
@@ -1055,26 +1057,20 @@
   text-align: left;
   letter-spacing: 0.03em;
   color: #172b4d;
-  left: 24px;
   background: #fff;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   margin-bottom: 20px;
-  width: 86%;
+  width: 71%;
   height: 150px;
+  padding-left: 16px;
+  padding-right: 38px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #form-message::placeholder {
   color: #b3bac5;
-  position: absolute;
-  padding-left: 16px;
-  top: 15px;
-  bottom: 15px;
-}
-
-#form-message::input {
-  padding-top: 15px;
-  padding-left: 15px;
 }
 
 #submit-button {
