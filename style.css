@@ -945,3 +945,42 @@
   color: #000;
   margin-right: 36px;
 }
+
+/* Contact me */
+
+.contact-me {
+  background-position: absolute;
+  background-color: #6070FF;
+  border-top-left-radius: 100px;
+  width: 375px;
+  height: 779px;
+}
+
+.contact-me-h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+  text-align: center;
+  padding-top: 160px;
+
+}
+
+.contact-me-p {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contact-me-form {
+  padding-top: 52px;
+}
