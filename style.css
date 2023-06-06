@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins, sans-serif');
+
 .header-container {
   position: relative;
   width: 100%;
@@ -949,7 +951,10 @@
 /* Contact me */
 
 .contact-me {
-  background-position: absolute;
+  background-position: right top;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-image: url(./images/contact_form_shapes_mobile.png);
   background-color: #6070ff;
   border-top-left-radius: 100px;
   width: 375px;
@@ -964,7 +969,7 @@
   line-height: 52px;
   color: white;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 103px;
 }
 
 .contact-me-p {
@@ -972,12 +977,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
   text-align: center;
+  line-height: 28px;
   color: #ebebff;
-  padding-top: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-top: 12px;
+  margin-bottom: 50px;
+  margin-left: 24px;
+  margin-right:24px;
 }
 
 .form-ul {
@@ -1003,13 +1009,14 @@
   background: #fff;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 4px;
-  padding-bottom: 4px;
   margin-bottom: 20px;
-  height: 30px;
-  width: 73%;
+  height: 40px;
+  width: 86%;
+}
+
+#form-name::placeholder {
+  color: #172b4d;
+  padding-left: 16px;
 }
 
 #form-email {
@@ -1027,13 +1034,14 @@
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 4px;
-  padding-bottom: 4px;
   margin-bottom: 20px;
-  height: 30px;
-  width: 73%;
+  height: 40px;
+  width: 86%;
+}
+
+#form-email::placeholder {
+  color: #172b4d;
+  padding-left: 16px;
 }
 
 #form-message {
@@ -1051,12 +1059,22 @@
   background: #fff;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 70px;
   margin-bottom: 20px;
-  width: 73%;
+  width: 86%;
+  height: 150px;
+}
+
+#form-message::placeholder {
+  color: #b3bac5;
+  position: absolute;
+  padding-left: 16px;
+  top: 15px;
+  bottom: 15px;
+}
+
+#form-message::input {
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 #submit-button {
@@ -1066,36 +1084,31 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 120px;
+  width: 130px;
   height: 48px;
-  border: 1px solid #172b4d;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
 
   /* Text */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #172b4d;
+  color: #6070ff;
   background: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 #submit-button:hover {
   background-color: #6070ff;
   color: white;
-  border-color: white;
-  outline: none;
-  box-shadow: 0 0 0 1px white;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
 }
 
-#submit-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px white;
+#submit-button:active {
+  background: #2230d2;
+  border-radius: 8px;
 }
