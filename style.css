@@ -965,11 +965,10 @@
   color: white;
   text-align: center;
   padding-top: 160px;
-
 }
 
 .contact-me-p {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1094,7 +1093,6 @@
   border-color: white;
   outline: none;
   box-shadow: 0 0 0 1px white;
-  
 }
 
 #submit-button:focus {
