@@ -4,8 +4,6 @@
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: 26px;
 }
 
 .my-logo {
@@ -29,17 +27,24 @@
   top: 6px;
   padding: 15px;
 }
+.body {
+  background-color: #e5e5e5;;
+}
 
 .container1 {
   display: grid;
-  background-image: url(./images/header-shapes\ mobile.png);
-  background-position: cover;
+  background-image: url(./images/header-shapes-desktop.svg);
+  background-position: center;
+  background-color: white;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  width: 375px;
+  height: 718px;
+  border-bottom-left-radius: 70px;
+
 }
 
 .introh1 {
-  display: flex;
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
@@ -50,7 +55,7 @@
   line-height: 52px;
   align-items: center;
   margin-bottom: 12px;
-  margin-top: 50px;
+  margin-top: 1px;
 }
 
 .intro-p {
@@ -794,10 +799,16 @@
 /* card about my self starts from here */
 
 .container2 {
-  display: grid;
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: white;
+  width: 375px;
+  height: 1265px;
+  border-top-right-radius: 90px;
+}
+
+.about-section1 {
+  align-content: center;
+  margin-top: 114px;
+  padding-top: 80px;
 }
 
 .about-myself-intro {
@@ -812,7 +823,7 @@
   line-height: 52px;
   align-items: center;
   margin-bottom: 12px;
-  margin-top: 50px;
+
 }
 
 .about-my-self-intro-p {
@@ -970,6 +981,10 @@
   color: white;
   text-align: center;
   padding-top: 103px;
+}
+
+.contact-me-section {
+  margin-top: -200px;
 }
 
 .contact-me-p {
