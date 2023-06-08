@@ -14,7 +14,7 @@
   line-height: 20px;
   margin-right: auto;
   margin-top: 20px;
-  width: 76px;
+  width: auto;
   height: 20px;
   margin-left: 24px;
 }
@@ -27,8 +27,9 @@
   top: 6px;
   padding: 15px;
 }
+
 .body {
-  background-color: #e5e5e5;;
+  background-color: #e5e5e5;
 }
 
 .container1 {
@@ -38,10 +39,9 @@
   background-color: white;
   background-repeat: no-repeat;
   background-size: auto;
-  width: 375px;
-  height: 718px;
+  width: auto;
+  height: auto;
   border-bottom-left-radius: 70px;
-
 }
 
 .introh1 {
@@ -106,8 +106,8 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: 327px;
-  height: 552px;
+  width: auto;
+  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -280,8 +280,8 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: 327px;
-  height: 585px;
+  width: auto;
+  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -455,8 +455,8 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: 327px;
-  height: 552px;
+  width: auto;
+  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -630,8 +630,8 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: 327px;
-  height: 585px;
+  width: auto;
+  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -800,9 +800,10 @@
 
 .container2 {
   background-color: white;
-  width: 375px;
-  height: 1265px;
+  width: auto;
+  height: auto;
   border-top-right-radius: 90px;
+  padding-bottom: 200px;
 }
 
 .about-section1 {
@@ -890,13 +891,13 @@
   height: 24px;
   left: 12px;
   right: 78px;
-  margin-bottom: 80%;
+  margin-bottom: 300px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   align-items: center;
-  color: #000;
+  color: #344563;
 }
 
 .list-of-lang {
@@ -955,8 +956,9 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000;
+  color: #344563;
   margin-right: 36px;
+  height: auto;
 }
 
 /* Contact me */
@@ -968,8 +970,8 @@
   background-image: url(./images/contact_form_shapes_mobile.png);
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  width: 375px;
-  height: 779px;
+  width: auto;
+
 }
 
 .contact-me-h2 {
@@ -984,7 +986,7 @@
 }
 
 .contact-me-section {
-  margin-top: -200px;
+  margin-top: -130px;
 }
 
 .contact-me-p {
@@ -1002,11 +1004,13 @@
 }
 
 .form-ul {
+  align-items: center;
   list-style-type: none;
 }
 
 .contact-me-form {
   padding-top: 52px;
+  align-items: center;
 }
 
 #form-name {
@@ -1123,3 +1127,9 @@
   background: #2230d2;
   border-radius: 8px;
 }
+
+@media (min-width: 768px) {
+
+/* ABOUT MY SELF */
+
+  
