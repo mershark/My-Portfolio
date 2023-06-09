@@ -808,6 +808,26 @@
   box-shadow: 0 0 0 3px lightskyblue;
 }
 
+.card4-paragraph1 {
+  display: none;
+}
+
+.card2-canopy1 {
+  display: none;
+}
+
+.card2-paragraph1 {
+  display: none;
+}
+
+.card2-back-end-dev1 {
+  display: none;
+}
+
+.card2-html2 {
+  display: none;
+}
+
 /* card about my self starts from here */
 
 .container2 {
@@ -983,7 +1003,7 @@
   background-color: #6070ff;
   border-top-left-radius: 100px;
   width: auto;
-
+  height: 779px;
 }
 
 .contact-me-h2 {
@@ -999,6 +1019,7 @@
 
 .contact-me-section {
   margin-top: -130px;
+
 }
 
 .contact-me-p {
@@ -1244,6 +1265,7 @@
 
   .card1-paragraph {
     margin-right: 46px;
+    margin-left: 1px;
   }
 
   .card1-img {
@@ -1275,6 +1297,20 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  .card1-h {
+    margin-top: 48px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+  }
+
+  .card1-ul1 {
+    margin-bottom: 32px;
+  }
+
+  .card1-ul2 {
+    margin-bottom: 32px;
   }
 
   .card1-button {
@@ -1317,7 +1353,7 @@
     justify-content: left;
     align-items: left;
     padding: 16px;
-    width: auto;
+    width: 100%;
     height: auto;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1325,7 +1361,7 @@
     margin-top: 50px;
   }
 
-    .card2-h {
+  .card2-h {
     margin-bottom: 1px;
     margin-left: 48px;
     margin-top: 48px;
@@ -1334,21 +1370,29 @@
   .card2-ul1 {
     margin-left: 48px;
     margin-top: 20px;
+    width: fit-content;
   }
 
   .card2-ul2 {
     margin-left: 40px;
     margin-top: 24px;
+    width: 350px;
   }
 
   .card2-paragraph {
     margin-left: 48px;
     margin-top: 32px;
+    margin-right: 48px;
   }
 
   .card2-button {
     margin-left: 48px;
-    margin-top: 56px;
+    margin-top: 45px;
+    margin-bottom: 13px;
+  }
+
+  .card2-back-end-dev {
+    display: none;
   }
 
   .card2-button:hover {
@@ -1361,7 +1405,60 @@
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
+  .card2-canopy {
+    display: none;
+  }
+
+  .card2-canopy1 {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .card2-back-end-dev1 {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .card2-2015 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6B778C;
+  }
+
+  .card2-html2 {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    width: 106px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    color: #6070ff;
+  }
+
   /* card three starts from here */
+
   .card3 {
     box-sizing: border-box;
     display: flex;
@@ -1423,7 +1520,22 @@
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
+  .card3-h {
+    margin-top: 48px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+  }
+
+  .card3-ul1 {
+    margin-bottom: 32px;
+  }
+
+  .card3-ul2 {
+    margin-bottom: 32px;
+  }
+
   /* card four starts from here */
+
   .card4 {
     box-sizing: border-box;
     display: flex;
@@ -1475,6 +1587,16 @@
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
+  .card4-paragraph1 {
+    display: inline;
+    margin-left: 48px;
+    margin-right: 46px;
+  }
+
+  .card4-paragraph {
+    display: none;
+  }
+
 
 /* ABOUT MY SELF */
 
@@ -1482,4 +1604,112 @@
 
 /* CONTACT ME */
 
+  .contact-me {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./images/desktop\ contact\ form.png);
+    background-color: #6070ff;
+    border-top-left-radius: 100px;
+    width: auto;
+  
+  }
+
+  .contact-me-h2 {
+    text-align: center;
+    padding-top: 103px;
+  }
+
+  .contact-me-section {
+    margin-top: -130px;
+  }
+
+  .contact-me-p {
+    margin-top: 12px;
+    margin-bottom: 50px;
+    margin-left: 436px;
+    margin-right: 435px;
+  }
+
+  .form-ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .contact-me-button {
+
+  }
+
+  .contact-me-form {
+    padding-top: 52px;
+    align-items: center;
+  }
+
+  #form-name {
+    left: 24px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #cfd8dc;
+    margin-bottom: 20px;
+    padding-left: 16px;
+  }
+
+  #form-name::placeholder {
+    color: #172b4d;
+  }
+
+  #form-email {
+    margin-left: 4px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #form-email::placeholder {
+    color: #172b4d;
+  }
+
+  #form-message {
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #cfd8dc;
+    margin-bottom: 20px;
+    margin-right: 1px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #form-message::placeholder {
+    color: #b3bac5;
+  }
+
+  #submit-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    border: 1px solid #7f8cff;
+    border-radius: 6px;
+  }
+
+  #submit-button:hover {
+    background-color: #6070ff;
+    color: white;
+    box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+
+  #submit-button:active {
+    background: #2230d2;
+    border-radius: 8px;
+  }
 }
