@@ -1005,7 +1005,6 @@
   background-image: url(./images/contact_form_shapes_mobile.png);
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  width: auto;
   height: 779px;
 }
 
@@ -1024,6 +1023,12 @@
   margin-top: -130px;
 }
 
+.form-all {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .contact-me-p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -1039,42 +1044,18 @@
 }
 
 .form-ul {
-  align-items: center;
-  list-style-type: none;
-}
-
-.contact-me-form {
-  padding-top: 52px;
-  align-items: center;
-}
-
-#form-name {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
   align-items: center;
-  text-align: left;
-  letter-spacing: 0.03em;
-  color: #172b4d;
-  left: 24px;
-  background: #fff;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  margin-bottom: 20px;
-  height: 40px;
-  width: 71%;
-  padding-left: 16px;
-  padding-right: 38px;
 }
 
 #form-name::placeholder {
   color: #172b4d;
 }
 
-#form-email {
+input {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -1085,15 +1066,12 @@
   text-align: left;
   letter-spacing: 0.03em;
   color: #172b4d;
-  left: 24px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  height: 40px;
-  width: 71%;
-  padding-left: 16px;
-  padding-right: 38px;
+  width: 400%;
+  margin-left: -90px;
 }
 
 #form-email::placeholder {
@@ -1111,16 +1089,12 @@
   text-align: left;
   letter-spacing: 0.03em;
   color: #172b4d;
+  left: 24px;
   background: #fff;
-  border-radius: 8px;
   border: 1px solid #cfd8dc;
+  border-radius: 8px;
   margin-bottom: 20px;
-  width: 71%;
-  height: 150px;
-  padding-left: 16px;
-  padding-right: 38px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width: 80%;
 }
 
 #form-message::placeholder {
