@@ -122,8 +122,6 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: auto;
-  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -296,8 +294,6 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: auto;
-  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -471,8 +467,6 @@
   flex-direction: column;
   align-items: left;
   padding: 16px;
-  width: auto;
-  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -644,10 +638,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   padding: 16px;
-  width: auto;
-  height: auto;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -860,7 +852,6 @@
   line-height: 52px;
   align-items: center;
   margin-bottom: 12px;
-
 }
 
 .about-my-self-intro-p {
@@ -1654,10 +1645,154 @@
     display: none;
   }
 
-
 /* ABOUT MY SELF */
 
+  .container2 {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-top-right-radius: 90px;
+    padding-bottom: 200px;
+  }
 
+  .aboutme-all {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-section1 {
+    align-content: center;
+    width: 50%;
+    margin-top: 1px;
+    padding-top: 1px;
+  }
+
+  .ul-abt {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .about-myself-intro {
+    display: flex;
+    color: #172b4d;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 52px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .about-my-self-intro-p {
+    color: #344563;
+    margin-left: 24px;
+    margin-right: 36px;
+    line-height: 24px;
+  }
+
+  .about-my-self-introh2 {
+    line-height: 24px;
+    color: #7f8cff;
+    margin-left: 24px;
+    margin-right: 234px;
+  }
+
+  .get-my-resume-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .get-my-resume-button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .get-my-resume-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
+
+  .language-header {
+    display: grid;
+    height: 24px;
+    left: 12px;
+    right: 78px;
+    margin-bottom: 300px;
+    line-height: 24px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .list-of-lang {
+    padding-left: 0.2px;
+    padding-right: 36px;
+  }
+
+  .about-myself-js {
+    display: flex;
+    align-items: center;
+    width: 303px;
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    list-style: none;
+    margin-top: 12px;
+    gap: 10px;
+    padding-left: 2%;
+    color: #253858;
+  }
+
+  .about-myself-html {
+    display: flex;
+    align-items: center;
+    width: 303px;
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    list-style: none;
+    text-align: justify;
+    margin-top: 12px;
+    gap: 10px;
+    padding-left: 2%;
+    color: #253858;
+  }
+
+  .about-myself-css {
+    display: flex;
+    align-items: center;
+    width: 303px;
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    list-style: none;
+    margin-top: 12px;
+    gap: 10px;
+    padding-left: 2%;
+    color: #253858;
+  }
+
+  .main-ul {
+    display: grid;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    margin-right: 36px;
+    height: auto;
+  }
 
 /* CONTACT ME */
 
@@ -1668,8 +1803,7 @@
     background-image: url(./images/desktop\ contact\ form.png);
     background-color: #6070ff;
     border-top-left-radius: 100px;
-    width: auto;
-  
+    width: 1;
   }
 
   .contact-me-h2 {
@@ -1684,17 +1818,13 @@
   .contact-me-p {
     margin-top: 12px;
     margin-bottom: 50px;
-    margin-left: 436px;
-    margin-right: 435px;
+    text-align: center;
   }
 
   .form-ul {
     align-items: center;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding-left: 1px;
-    padding-right: 1px;
+  
   }
 
   .contact-me-button {
@@ -1707,12 +1837,7 @@
   }
 
   #form-name {
-    left: 24px;
-    background: #fff;
-    border-radius: 6px;
-    border: 1px solid #cfd8dc;
-    margin-bottom: 20px;
-    padding-left: 16px;
+
   }
 
   #form-name::placeholder {
@@ -1720,12 +1845,7 @@
   }
 
   #form-email {
-    margin-left: 4px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    width: 100%;
+
   }
 
   #form-email::placeholder {
@@ -1733,14 +1853,7 @@
   }
 
   #form-message {
-    background: #fff;
-    border-radius: 6px;
-    border: 1px solid #cfd8dc;
-    margin-bottom: 20px;
-    margin-right: 1px;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+
   }
 
   #form-message::placeholder {
