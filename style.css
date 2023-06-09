@@ -104,6 +104,10 @@
   margin-right: 24px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .card1-img2 {
   display: none;
 }
@@ -1169,18 +1173,35 @@
     position: relative;
     width: 100%;
     display: flex;
+    margin-top: 25px;
   }
 
   .my-logo {
     margin-right: auto;
     margin-top: 20px;
-    width: auto;
+    width: 60%;
     height: 20px;
     margin-left: 155px;
   }
 
   .my-menu {
     display: none;
+  }
+
+  .desktop-nav {
+    display: inline;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 155px;
+    gap: 32px;
+    list-style: none;
   }
 
   .body {
@@ -1261,6 +1282,36 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .card1:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
+  }
+
+  .card2:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
+  }
+
+  .card3:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
+  }
+
+  .card4:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
   }
 
   .card1-paragraph {
@@ -1358,7 +1409,9 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-top: 50px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .card2-h {
@@ -1470,7 +1523,9 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-top: 50px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .card3-h {
@@ -1548,7 +1603,9 @@
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
-    margin-top: 50px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .card4-h {
