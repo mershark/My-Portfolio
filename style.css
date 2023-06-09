@@ -834,6 +834,10 @@
   padding-bottom: 200px;
 }
 
+.socials {
+  margin-bottom: 6px;
+}
+
 .about-section1 {
   align-content: center;
   margin-top: 114px;
@@ -935,7 +939,7 @@
 .about-myself-js {
   display: flex;
   align-items: center;
-  width: 303px;
+  width: 60%;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -949,7 +953,7 @@
 .about-myself-html {
   display: flex;
   align-items: center;
-  width: 303px;
+  width: 60%;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -964,7 +968,7 @@
 .about-myself-css {
   display: flex;
   align-items: center;
-  width: 303px;
+  width: 60%;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -1014,7 +1018,6 @@
 
 .contact-me-section {
   margin-top: -130px;
-
 }
 
 .contact-me-p {
@@ -1396,7 +1399,7 @@
     align-items: left;
     padding: 16px;
     width: 100%;
-    height: auto;
+    height: ;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -1652,7 +1655,8 @@
     width: auto;
     height: auto;
     border-top-right-radius: 90px;
-    padding-bottom: 200px;
+    padding-bottom: 1px;
+    margin-top: 146px;
   }
 
   .aboutme-all {
@@ -1662,21 +1666,20 @@
 
   .about-section1 {
     align-content: center;
-    width: 50%;
-    margin-top: 1px;
+    width: 40%;
+    margin-top: 166px;
     padding-top: 1px;
   }
 
   .ul-abt {
     display: flex;
-    flex-direction: column;
-    align-content: left;
+    flex-direction: row;
   }
 
   .about-myself-intro {
     display: flex;
     color: #172b4d;
-    margin-left: 24px;
+    margin-left: 143px;
     margin-right: 24px;
     line-height: 52px;
     align-items: center;
@@ -1685,16 +1688,22 @@
 
   .about-my-self-intro-p {
     color: #344563;
-    margin-left: 24px;
+    margin-left: 143px;
     margin-right: 36px;
     line-height: 24px;
+  }
+
+  .socials {
+    margin-left: 143px;
+    align-content: left;
   }
 
   .about-my-self-introh2 {
     line-height: 24px;
     color: #7f8cff;
-    margin-left: 24px;
+    margin-left: 143px;
     margin-right: 234px;
+    width: 100%;
   }
 
   .get-my-resume-button {
@@ -1708,7 +1717,7 @@
     height: 48px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    margin-left: 24px;
+    margin-left: 1px;
     margin-right: 24px;
   }
 
@@ -1727,22 +1736,29 @@
     height: 24px;
     left: 12px;
     right: 78px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     line-height: 24px;
     align-items: center;
     color: #344563;
   }
 
   .list-of-lang {
-    padding-left: 0.2px;
-    padding-right: 36px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: left;
+  }
+
+  .list-of-lang img {
+    size: 48px;
   }
 
   .about-myself-js {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 303px;
-    height: 66.72px;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
@@ -1754,44 +1770,43 @@
 
   .about-myself-html {
     display: flex;
-    align-items: center;
-    width: 303px;
-    height: 66.72px;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
     text-align: justify;
     margin-top: 12px;
-    gap: 10px;
-    padding-left: 2%;
     color: #253858;
   }
 
   .about-myself-css {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 303px;
-    height: 66.72px;
+    width: 122px;
+    height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
     list-style: none;
     margin-top: 12px;
     gap: 10px;
-    padding-left: 2%;
     color: #253858;
   }
 
   .main-ul {
-    display: grid;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #344563;
     margin-right: 36px;
     height: auto;
+  }
+
+  .lang-div {
+    margin-top: 166px;
+    width: 60%;
+  }
+
+  .skills-h4 {
+    width: 100%;
   }
 
 /* CONTACT ME */
