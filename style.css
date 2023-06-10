@@ -1323,39 +1323,34 @@ input {
     margin-bottom: 32px;
   }
 
-  .card1-button {
+  /* card two starts from here */
+
+  .card2 {
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 126px;
-    height: 48px;
-    left: 1px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    background-color: white;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: left;
+    padding: 16px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
-  .card1-button:hover {
+  .card2-button:hover {
     background-color: #6070ff;
     color: white;
   }
 
-  .card1-button:focus {
+  .card2-button:focus {
     outline: none;
     box-shadow: 0 0 0 3px lightskyblue;
   }
-
-  /* card two starts from here */
 
   .card2-canopy1 {
     display: inline;
@@ -1398,33 +1393,6 @@ input {
     line-height: 16px;
     letter-spacing: 0.06em;
     color: #6070ff;
-  }
-
-  .card2 {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    align-items: left;
-    padding: 16px;
-    width: auto;
-    height: auto;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-
-  .card2-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card2-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   /* card three starts from here */
@@ -1522,38 +1490,6 @@ input {
   .card4-paragraph {
     margin-left: 48px;
     margin-top: 32px;
-  }
-
-  .card4-button {
-    margin-left: 48px;
-    margin-top: 56px;
-  }
-
-  .card4 {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    align-items: left;
-    padding: 16px;
-    width: auto;
-    height: auto;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-
-  .card4-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card4-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   /* ABOUT MY SELF */
