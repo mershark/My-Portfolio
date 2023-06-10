@@ -8,7 +8,6 @@
 
 .my-logo {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -52,7 +51,6 @@
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   line-height: 52px;
   align-items: center;
   margin-bottom: 12px;
@@ -64,7 +62,6 @@
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -73,7 +70,6 @@
 
 .introh2 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -131,7 +127,6 @@
 
 .card1-h {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
@@ -154,7 +149,6 @@
 
 .card1-canopy {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -163,7 +157,6 @@
 
 .card1-back-end-dev {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -172,7 +165,6 @@
 
 .card1-2015 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -181,7 +173,6 @@
 
 .card1-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -213,7 +204,6 @@
   background: #ebebff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -231,7 +221,6 @@
   background: #ebebff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -249,7 +238,6 @@
   background: #ebebff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -274,7 +262,6 @@
 
 .card2-h {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
@@ -296,7 +283,6 @@
 
 .card2-canopy {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -305,7 +291,6 @@
 
 .card2-back-end-dev {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -314,7 +299,6 @@
 
 .card2-2015 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -323,7 +307,6 @@
 
 .card2-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -343,60 +326,6 @@
   padding-left: 0;
 }
 
-.card2-html {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 57px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card2-css {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 49px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card2-javascript {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 92px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
 /* card three starts from here */
 
 .card3 {
@@ -413,7 +342,6 @@
 
 .card3-h {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
@@ -436,7 +364,6 @@
 
 .card3-canopy {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -445,7 +372,6 @@
 
 .card3-back-end-dev {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -454,7 +380,6 @@
 
 .card3-2015 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -463,7 +388,6 @@
 
 .card3-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -481,60 +405,6 @@
   height: 24px;
   margin-top: 16px;
   margin-bottom: 0%;
-}
-
-.card3-html {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 57px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card3-css {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 49px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card3-javascript {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 92px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
 }
 
 .card3-button {
@@ -582,7 +452,6 @@
 
 .card4-h {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
@@ -604,7 +473,6 @@
 
 .card4-canopy {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -613,7 +481,6 @@
 
 .card4-back-end-dev {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -622,7 +489,6 @@
 
 .card4-2015 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -631,7 +497,6 @@
 
 .card4-paragraph {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -650,60 +515,6 @@
   height: 24px;
   margin-top: 16px;
   margin-bottom: 1%;
-}
-
-.card4-html {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 57px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card4-css {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 49px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
-.card4-javascript {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  width: 92px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
 }
 
 .card4-paragraph1 {
@@ -750,7 +561,6 @@
   margin-left: 24px;
   margin-right: 24px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   line-height: 52px;
   align-items: center;
   margin-bottom: 12px;
@@ -761,7 +571,6 @@
   margin-left: 24px;
   margin-right: 36px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-weight: 500;
   font-size: 16px;
@@ -770,7 +579,6 @@
 
 .about-my-self-introh2 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -846,40 +654,10 @@
   color: #253858;
 }
 
-.about-myself-html {
-  display: flex;
-  align-items: center;
-  width: 60%;
-  height: 66.72px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  list-style: none;
-  text-align: justify;
-  margin-top: 12px;
-  gap: 10px;
-  padding-left: 2%;
-  color: #253858;
-}
-
-.about-myself-css {
-  display: flex;
-  align-items: center;
-  width: 60%;
-  height: 66.72px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  list-style: none;
-  margin-top: 12px;
-  gap: 10px;
-  padding-left: 2%;
-  color: #253858;
-}
-
 .main-ul {
   display: grid;
   list-style: none;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -903,7 +681,6 @@
 
 .contact-me-h2 {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -918,7 +695,6 @@
 
 .contact-me-p {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -946,7 +722,6 @@
 
 input {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -962,7 +737,6 @@ input {
 
 #form-message {
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -1063,7 +837,6 @@ input {
     text-align: center;
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -1242,7 +1015,6 @@ input {
   .card2-canopy1 {
     display: inline;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -1252,7 +1024,6 @@ input {
   .card2-back-end-dev1 {
     display: inline;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -1274,7 +1045,6 @@ input {
     background: #ebebff;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -1286,7 +1056,6 @@ input {
 
   .card3-h {
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #172b4d;
@@ -1469,36 +1238,6 @@ input {
     color: #253858;
   }
 
-  .about-myself-html {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 122px;
-    height: 120px;
-    background: #f7f7f9;
-    border-radius: 8px;
-    list-style: none;
-    text-align: justify;
-    margin-top: 12px;
-    color: #253858;
-  }
-
-  .about-myself-css {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 122px;
-    height: 120px;
-    background: #f7f7f9;
-    border-radius: 8px;
-    list-style: none;
-    margin-top: 12px;
-    gap: 10px;
-    color: #253858;
-  }
-
   .main-ul {
     margin-right: 36px;
     height: auto;
@@ -1529,7 +1268,6 @@ input {
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
