@@ -1219,9 +1219,8 @@ input {
   }
 
   .socials {
-    margin-bottom: 255px;
-    margin-left: 60px;
-    margin-right: 260px;
+    margin-left: 27px;
+    align-content: left;
   }
 
   /* WORK/PROJECTS */
@@ -1357,22 +1356,6 @@ input {
   }
 
   /* card two starts from here */
-  .card2 {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    align-items: left;
-    padding: 16px;
-    width: auto;
-    height: auto;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
 
   .card2-canopy1 {
     display: inline;
@@ -1417,22 +1400,11 @@ input {
     color: #6070ff;
   }
 
-  .card2-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card2-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
-  }
-
-  /* card three starts from here */
-
-  .card3 {
+  .card2 {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: left;
     align-items: left;
     padding: 16px;
     width: auto;
@@ -1444,6 +1416,18 @@ input {
     margin-right: 20px;
     margin-left: 20px;
   }
+
+  .card2-button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .card2-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
+
+  /* card three starts from here */
 
   .card3-h {
     font-family: 'Poppins', sans-serif;
@@ -1482,18 +1466,28 @@ input {
     background-color: white;
   }
 
-  .card3-h {
-    margin-top: 48px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-  }
-
   .card3-ul1 {
     margin-bottom: 32px;
   }
 
   .card3-ul2 {
     margin-bottom: 32px;
+  }
+
+  .card3 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 16px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .card3-button:hover {
@@ -1507,23 +1501,6 @@ input {
   }
 
   /* card four starts from here */
-
-  .card4 {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-    align-items: left;
-    padding: 16px;
-    width: auto;
-    height: auto;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
 
   .card4-h {
     margin-bottom: 1px;
@@ -1550,6 +1527,23 @@ input {
   .card4-button {
     margin-left: 48px;
     margin-top: 56px;
+  }
+
+  .card4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: left;
+    padding: 16px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 142px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .card4-button:hover {
@@ -1610,11 +1604,6 @@ input {
     margin-left: 143px;
     margin-right: 36px;
     line-height: 24px;
-  }
-
-  .socials {
-    margin-left: 27px;
-    align-content: left;
   }
 
   .about-my-self-introh2 {
