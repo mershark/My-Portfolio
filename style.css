@@ -1005,7 +1005,8 @@
   background-image: url(./images/contact_form_shapes_mobile.png);
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  height: 779px;
+  height: auto;
+  padding: 100px 24px;
 }
 
 .contact-me-h2 {
@@ -1023,12 +1024,6 @@
   margin-top: -130px;
 }
 
-.form-all {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .contact-me-p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -1043,12 +1038,18 @@
   margin-right: 24px;
 }
 
+.contact-me-desktop {
+  display: none;
+}
+
 .form-ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   list-style-type: none;
-  align-items: center;
+  align-items: left;
+  padding-left: 1px;
+  padding-right: 14px;
 }
 
 #form-name::placeholder {
@@ -1061,17 +1062,14 @@ input {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: left;
   letter-spacing: 0.03em;
   color: #172b4d;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  width: 400%;
-  margin-left: -90px;
+  height: 48px;
+  width: 100%;
 }
 
 #form-email::placeholder {
@@ -1094,7 +1092,7 @@ input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  width: 80%;
+  width: 100%
 }
 
 #form-message::placeholder {
@@ -1232,8 +1230,8 @@ input {
 
   .socials {
     margin-bottom: 255px;
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 20px;
+    margin-right: 60px;
   }
 
 /* WORK/PROJECTS */
@@ -1727,6 +1725,7 @@ input {
     flex-direction: row;
     gap: 20px;
     justify-content: left;
+    align-items: left;
   }
 
   .list-of-lang img {
@@ -1736,7 +1735,8 @@ input {
   .about-myself-js {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    justify-content: left;
     width: 122px;
     height: 120px;
     background: #f7f7f9;
@@ -1809,19 +1809,34 @@ input {
     margin-top: -130px;
   }
 
-  .contact-me-p {
+  .contact-me-desktop {
+    display: contents;
+      justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    color: #ebebff;
     margin-top: 12px;
     margin-bottom: 50px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .contact-me-p {
+    display: none;
   }
 
   .form-ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     list-style-type: none;
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 14px;
   }
 
   .contact-me-form {
@@ -1830,8 +1845,9 @@ input {
   }
 
   #form-name {
-    width: auto;
-    border-radius: 2px; 
+    width: 200%;
+    border-radius: 2px;
+    margin-left: -40px
   }
 
   #form-name::placeholder {
