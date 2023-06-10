@@ -34,7 +34,7 @@
 
 
 
-**Portfolio Project 1**  is a project, where I build the homepage of my portfolio page. No complex coding was required for this exercise. HTML and CSS were only used.
+**Portfolio Project 1**  is a project, where I build the homepage of my portfolio page. No complex coding was required for this exercise. HTML and CSS were only used, the homepage is also suitable for multiple screen sizes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,6 +50,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Landing page**
+- **About Me**
 - **Projects**
 - **Contact me**
 

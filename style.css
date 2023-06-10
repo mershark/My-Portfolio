@@ -1076,7 +1076,7 @@ input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  width: 100%
+  width: 100%;
 }
 
 #form-name::placeholder {
@@ -1133,7 +1133,7 @@ input {
 
 @media (min-width: 768px) {
 
-/* LANDING PAGE */
+  /* LANDING PAGE */
 
   .header-container {
     position: center;
@@ -1163,7 +1163,7 @@ input {
     align-items: center;
     text-align: center;
     flex-direction: row;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1184,7 +1184,6 @@ input {
     background-size: 100%;
     background-image: url(./images/Header\ bg@2x.png);
     border-bottom-left-radius: 70px;
-    margin-left: 34x;
     margin-bottom: 76.54;
     width: 100%;
   }
@@ -1230,7 +1229,7 @@ input {
     margin-right: 260px;
   }
 
-/* WORK/PROJECTS */
+  /* WORK/PROJECTS */
   .works {
     display: grid;
     align-content: center;
@@ -1362,7 +1361,7 @@ input {
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
-  /* card two starts from here */
+    /* card two starts from here */
   .card2 {
     box-sizing: border-box;
     display: flex;
@@ -1568,7 +1567,7 @@ input {
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
-/* ABOUT MY SELF */
+  /* ABOUT MY SELF */
 
   .container2 {
     background-color: white;
@@ -1733,7 +1732,7 @@ input {
     width: 100%;
   }
 
-/* CONTACT ME */
+  /* CONTACT ME */
 
   .contact-me-h2 {
     text-align: center;
@@ -1848,7 +1847,6 @@ input {
 }
 
 @media (min-width: 430px) {
-  
   .form-all {
     display: flex;
     justify-content: center;
