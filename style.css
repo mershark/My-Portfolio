@@ -830,10 +830,6 @@
   padding-bottom: 200px;
 }
 
-.socials {
-  margin-bottom: 6px;
-}
-
 .about-section1 {
   align-content: center;
   margin-top: 114px;
@@ -1132,7 +1128,6 @@ input {
 }
 
 @media (min-width: 768px) {
-
   /* LANDING PAGE */
 
   .header-container {
@@ -1361,7 +1356,7 @@ input {
     box-shadow: 0 0 0 3px lightskyblue;
   }
 
-    /* card two starts from here */
+  /* card two starts from here */
   .card2 {
     box-sizing: border-box;
     display: flex;
@@ -1377,16 +1372,6 @@ input {
     margin-top: 142px;
     margin-right: 20px;
     margin-left: 20px;
-  }
-
-  .card2-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card2-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   .card2-canopy1 {
@@ -1430,6 +1415,16 @@ input {
     line-height: 16px;
     letter-spacing: 0.06em;
     color: #6070ff;
+  }
+
+  .card2-button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .card2-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   /* card three starts from here */
@@ -1487,16 +1482,6 @@ input {
     background-color: white;
   }
 
-  .card3-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card3-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
-  }
-
   .card3-h {
     margin-top: 48px;
     margin-bottom: 1px;
@@ -1509,6 +1494,16 @@ input {
 
   .card3-ul2 {
     margin-bottom: 32px;
+  }
+
+  .card3-button:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .card3-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   /* card four starts from here */
