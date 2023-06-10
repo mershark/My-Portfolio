@@ -1225,13 +1225,13 @@ input {
 
   .socials ul {
     margin-left: 114px;
-    padding-left: 1px;
+    padding-left: 120px;
   }
 
   .socials {
     margin-bottom: 255px;
-    margin-left: 20px;
-    margin-right: 60px;
+    margin-left: 60px;
+    margin-right: 260px;
   }
 
 /* WORK/PROJECTS */
@@ -1333,7 +1333,7 @@ input {
   }
 
   .card1-ul2 {
-    margin-bottom: 32px;
+    margin-bottom: px;
   }
 
   .card1-button {
@@ -1652,6 +1652,11 @@ input {
   .ul-abt {
     display: flex;
     flex-direction: row;
+    margin-left: 105px;
+  }
+
+  .socialsabt {
+    margin-bottom: 273px;
   }
 
   .about-myself-intro {
@@ -1695,7 +1700,7 @@ input {
     height: 48px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    margin-left: 116px;
+    margin-left: 145px;
     margin-right: 24px;
   }
 
