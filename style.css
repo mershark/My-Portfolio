@@ -1254,20 +1254,6 @@ input {
     border-color: #a7aeff;
   }
 
-  .card2:hover {
-    color: white;
-    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
-    border-color: #a7aeff;
-  }
-
-  .card3:hover {
-    color: white;
-    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
-    border-color: #a7aeff;
-  }
-
   .card4:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
@@ -1340,6 +1326,13 @@ input {
     margin-top: 142px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .card2:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
   }
 
   .card2-button:hover {
@@ -1456,6 +1449,13 @@ input {
     margin-top: 142px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .card2:hover {
+    color: white;
+    box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
+    border-radius: 5px solid;
+    border-color: #a7aeff;
   }
 
   .card3-button:hover {
