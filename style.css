@@ -433,7 +433,6 @@
   transform: translateX(10px);
 }
 
-
 .card3-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px lightskyblue;
@@ -804,7 +803,7 @@ input {
   color: white;
   box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  transform: translateX(10px)
+  transform: translateX(10px);
 }
 
 #submit-button:active {
@@ -812,7 +811,10 @@ input {
   border-radius: 8px;
 }
 
-.introh1, .intro-p, .introh2, .socials {
+.introh1, 
+.intro-p, 
+.introh2, 
+.socials {
   opacity: 0;
   transform: translateY(-60px);
   animation-name: h1animation;
