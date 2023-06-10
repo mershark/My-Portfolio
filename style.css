@@ -30,6 +30,7 @@
 
 .body {
   background-color: #e5e5e5;
+  margin: 0;
 }
 
 .container1 {
@@ -256,38 +257,6 @@
   color: #6070ff;
 }
 
-.card1-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 126px;
-  height: 48px;
-  left: 1px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background-color: white;
-}
-
-.card1-button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card1-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px lightskyblue;
-}
-
 /* card two starts from here */
 .card2 {
   box-sizing: border-box;
@@ -428,37 +397,8 @@
   color: #6070ff;
 }
 
-.card2-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  width: 126px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background-color: white;
-}
-
-.card2-button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card2-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px lightskyblue;
-}
-
 /* card three starts from here */
+
 .card3 {
   box-sizing: border-box;
   display: flex;
@@ -600,16 +540,13 @@
 .card3-button {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 12px;
-  gap: 10px;
   width: 126px;
   height: 48px;
-  left: px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -769,37 +706,6 @@
   color: #6070ff;
 }
 
-.card4-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 126px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  background-color: white;
-}
-
-.card4-button:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card4-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px lightskyblue;
-}
-
 .card4-paragraph1 {
   display: none;
 }
@@ -877,9 +783,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 12px;
-  gap: 10px;
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -889,7 +794,6 @@
 
   /* Text */
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -1095,6 +999,7 @@ input {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 12px;
   gap: 10px;
@@ -1105,7 +1010,6 @@ input {
 
   /* Text */
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -1335,16 +1239,6 @@ input {
     border-color: #a7aeff;
   }
 
-  .card2-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card2-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
-  }
-
   .card2-canopy1 {
     display: inline;
     font-family: 'Poppins', sans-serif;
@@ -1405,28 +1299,6 @@ input {
     margin-right: 46px;
   }
 
-  .card3-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 126px;
-    height: 48px;
-    left: px;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    background-color: white;
-  }
-
   .card3-ul1 {
     margin-bottom: 32px;
   }
@@ -1456,16 +1328,6 @@ input {
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
     border-radius: 5px solid;
     border-color: #a7aeff;
-  }
-
-  .card3-button:hover {
-    background-color: #6070ff;
-    color: white;
-  }
-
-  .card3-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightskyblue;
   }
 
   /* card four starts from here */
@@ -1694,15 +1556,6 @@ input {
   }
 
   #input {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #172b4d;
-    background: #fff;
-    border: 1px solid #cfd8dc;
     border-radius: 1px;
     margin-bottom: 20px;
     width: 100%;
@@ -1741,73 +1594,9 @@ input {
   }
 
   #submit-button {
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-    gap: 10px;
-    border: 1px solid #7f8cff;
-    border-radius: 8px;
     width: 142px;
     height: 48px;
     margin-right: 300px;
-    margin-left: 150px;
-  }
-
-  #submit-button:hover {
-    background-color: #6070ff;
-    color: white;
-    box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 2px;
-  }
-
-  #submit-button:active {
-    background: #2230d2;
-    border-radius: 2px;
-  }
-}
-
-@media (min-width: 430px) {
-  .form-all {
-    display: flex;
-    justify-content: center;
-    margin-right: 40px;
-    margin-left: 60px;
-  }
-
-  .form-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    list-style-type: none;
-    padding-left: 10px;
-  }
-
-  .contact-me {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(./images/desktop\ contact\ form.png);
-    background-color: #6070ff;
-    border-top-left-radius: 100px;
-  }
-
-  #form-name::placeholder {
-    color: #172b4d;
-    padding-left: 16px;
-  }
-
-  #form-email::placeholder {
-    color: #172b4d;
-    padding-left: 16px;
-  }
-
-  #form-message::placeholder {
-    color: #b3bac5;
-    padding-left: 16px;
-    padding-top: 14px;
-  }
-
-  .contact-me-button {
-    margin-left: 110px;
+    margin-left: 300px;
   }
 }
