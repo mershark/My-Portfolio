@@ -1816,7 +1816,7 @@ input {
 
   .contact-me-desktop {
     display: contents;
-      justify-content: right;
+    justify-content: right;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1837,9 +1837,9 @@ input {
   .form-ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     list-style-type: none;
-    align-items: center;
+    align-items: left;
     padding-left: 1px;
     padding-right: 14px;
   }
@@ -1849,19 +1849,23 @@ input {
     align-items: center;
   }
 
-  #form-name {
-    width: 200%;
+  #input {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #172b4d;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 2px;
-    margin-left: -40px
+    margin-bottom: 20px;
+    width: 100%;
   }
 
   #form-name::placeholder {
     color: #172b4d;
-  }
-
-  #form-email {
-    width: 100%;
-    border-radius: 2px;
   }
 
   #form-email::placeholder {
@@ -1877,6 +1881,11 @@ input {
     color: #b3bac5;
   }
 
+  .form-all {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+
   #submit-button {
     box-sizing: border-box;
     display: flex;
@@ -1886,7 +1895,9 @@ input {
     gap: 10px;
     border: 1px solid #7f8cff;
     border-radius: 8px;
-    width: 100%
+    width: 100%;
+    margin-right: 30%;
+    margin-left: 30%;
   }
 
   #submit-button:hover {
