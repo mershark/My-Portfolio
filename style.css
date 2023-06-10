@@ -811,9 +811,12 @@ input {
   border-radius: 8px;
 }
 
-.introh1, 
-.intro-p, 
-.introh2, 
+.introh1,
+
+.intro-p,
+
+.introh2,
+
 .socials {
   opacity: 0;
   transform: translateY(-60px);
