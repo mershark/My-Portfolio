@@ -311,19 +311,18 @@
   color: #172b4d;
   margin: 12px;
   margin-bottom: 1px;
-  margin-left: 1%;
+  margin-left: 0;
 }
 
 .card2-ul1 {
   display: flex;
   flex-direction: row;
   align-items: left;
-  padding: 1px;
   gap: 16px;
   width: 236px;
   margin-top: 20px;
-  margin-left: 1px;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .card2-canopy {
@@ -360,8 +359,6 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding: 1%;
-  margin: 1px;
 }
 
 .card2-ul2 {
@@ -369,12 +366,12 @@
   flex-direction: row;
   align-items: center;
   padding: 16px;
-  padding-left: 1%;
   gap: 8px;
   width: 214px;
   height: 24px;
   margin-top: 16px;
   margin-bottom: 1%;
+  padding-left: 0;
 }
 
 .card2-html {
@@ -435,11 +432,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   width: 126px;
   height: 48px;
-  left: 1px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -484,7 +479,7 @@
   color: #172b4d;
   margin: 12px;
   margin-bottom: 1px;
-  margin-left: 1%;
+  margin-left: 0;
 }
 
 .card3-ul1 {
@@ -533,8 +528,6 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  padding: 1%;
-  margin: 1px;
 }
 
 .card3-ul2 {
@@ -784,7 +777,6 @@
   gap: 10px;
   width: 126px;
   height: 48px;
-  left: 1px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
@@ -1324,6 +1316,8 @@ input {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 48px;
+    margin-left: 15px;
   }
 
   .card1-h {
@@ -1334,10 +1328,6 @@ input {
 
   .card1-ul1 {
     margin-bottom: 32px;
-  }
-
-  .card1-ul2 {
-    margin-bottom: px;
   }
 
   .card1-button {
@@ -1390,40 +1380,6 @@ input {
     margin-left: 20px;
   }
 
-  .card2-h {
-    margin-bottom: 1px;
-    margin-left: 48px;
-    margin-top: 48px;
-  }
-
-  .card2-ul1 {
-    margin-left: 48px;
-    margin-top: 20px;
-    width: fit-content;
-  }
-
-  .card2-ul2 {
-    margin-left: 40px;
-    margin-top: 24px;
-    width: 350px;
-  }
-
-  .card2-paragraph {
-    margin-left: 48px;
-    margin-top: 32px;
-    margin-right: 48px;
-  }
-
-  .card2-button {
-    margin-left: 48px;
-    margin-top: 45px;
-    margin-bottom: 13px;
-  }
-
-  .card2-back-end-dev {
-    display: none;
-  }
-
   .card2-button:hover {
     background-color: #6070ff;
     color: white;
@@ -1432,10 +1388,6 @@ input {
   .card2-button:focus {
     outline: none;
     box-shadow: 0 0 0 3px lightskyblue;
-  }
-
-  .card2-canopy {
-    display: none;
   }
 
   .card2-canopy1 {
@@ -1456,15 +1408,6 @@ input {
     font-size: 18px;
     line-height: 24px;
     color: #6b778c;
-  }
-
-  .card2-2015 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #6B778C;
   }
 
   .card2-html2 {
@@ -1598,6 +1541,7 @@ input {
   .card4-ul2 {
     margin-left: 40px;
     margin-top: 24px;
+    padding-left: none;
   }
 
   .card4-paragraph {
@@ -1618,16 +1562,6 @@ input {
   .card4-button:focus {
     outline: none;
     box-shadow: 0 0 0 3px lightskyblue;
-  }
-
-  .card4-paragraph1 {
-    display: inline;
-    margin-left: 48px;
-    margin-right: 46px;
-  }
-
-  .card4-paragraph {
-    display: none;
   }
 
 /* ABOUT MY SELF */
@@ -1733,19 +1667,13 @@ input {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: left;
-    align-items: left;
-  }
-
-  .list-of-lang img {
-    size: 48px;
   }
 
   .about-myself-js {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    justify-content: center;
+    align-items: flex-start;
     width: 122px;
     height: 120px;
     background: #f7f7f9;
@@ -1753,13 +1681,14 @@ input {
     list-style: none;
     margin-top: 12px;
     gap: 10px;
-    padding-left: 2%;
     color: #253858;
   }
 
   .about-myself-html {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: 122px;
     height: 120px;
     background: #f7f7f9;
@@ -1773,7 +1702,8 @@ input {
   .about-myself-css {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     width: 122px;
     height: 120px;
     background: #f7f7f9;
@@ -1787,6 +1717,7 @@ input {
   .main-ul {
     margin-right: 36px;
     height: auto;
+    padding-left: 1px;
   }
 
   .lang-div {
@@ -1849,7 +1780,7 @@ input {
     color: #172b4d;
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 2px;
+    border-radius: 1px;
     margin-bottom: 20px;
     width: 100%;
     margin-right: 300px;
@@ -1868,7 +1799,8 @@ input {
 
   #form-message {
     width: 100%;
-    border-radius: 2px;
+    border: 2px solid #cfd8dc;
+    border-radius: 8px;
     padding-left: 2px;
   }
 
@@ -1895,7 +1827,7 @@ input {
     width: 142px;
     height: 48px;
     margin-right: 300px;
-    margin-left: 200px;
+    margin-left: 150px;
   }
 
   #submit-button:hover {
