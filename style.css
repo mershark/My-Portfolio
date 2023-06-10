@@ -812,6 +812,27 @@ input {
   border-radius: 8px;
 }
 
+.introh1, .intro-p, .introh2, .socials {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation-name: h1animation;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  overflow: none;
+}
+
+@keyframes h1animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (min-width: 768px) {
   /* LANDING PAGE */
 
