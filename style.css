@@ -812,11 +812,8 @@ input {
 }
 
 .introh1,
-
 .intro-p,
-
 .introh2,
-
 .socials {
   opacity: 0;
   transform: translateY(-60px);
@@ -836,6 +833,7 @@ input {
     opacity: 1;
     transform: translateY(4px);
   }
+
 }
 
 @media (min-width: 768px) {
