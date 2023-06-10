@@ -1410,6 +1410,10 @@ input {
     color: #6b778c;
   }
 
+  .card2-ul2 {
+    margin-bottom: 20px;
+  }
+
   .card2-html2 {
     display: inline;
     display: flex;
