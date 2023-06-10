@@ -814,9 +814,9 @@ input {
 
 .introh1, .intro-p, .introh2, .socials {
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(-60px);
   animation-name: h1animation;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
   overflow: none;
@@ -824,12 +824,12 @@ input {
 
 @keyframes h1animation {
   0% {
-    opacity: 0;
-    transform: translateY(-50px);
+    opacity: 1px;
+    transform: translateY(-60px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(4px);
   }
 }
 
