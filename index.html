@@ -15,20 +15,22 @@
       <a href="" class="my-menu"></a>
       <ul class="desktop-nav">
         <li class="nav-men">
-          <a href="#" class="nav-link">Portfolio</a>
+          <a href="#myProjects-page" class="nav-link">Portfolio</a>
         </li>
         <li class="nav-men">
-          <a href="#" class="nav-link">About</a>
+          <a href="#myAbouts-page" class="nav-link">About</a>
         </li>
         <li class="nav-men">
-          <a href="#" class="nav-link">Contact</a>
+          <a href="#myContact-page" class="nav-link">Contact</a>
         </li>
       </ul>
-      <div class="hamburger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <div id="mobilenav" class="mobileNavigation">
+        <a href="javascript:void(0)" class="killnav" onclick="menukill()">&times;</a>
+        <a href="#myProjects-page" onclick="closeMenu()">Portfolio</a>
+        <a href="#myAbouts-page" onclick="closeMenu()">About</a>
+        <a href="#myContact-page" onclick="closeMenu()">Contact</a>
       </div>
+      <span class="navonmo" onclick="menuopen()"><img src="./images/Union.png" alt=""></span>
     </nav>
   </header>
   <section class="container1">
@@ -53,7 +55,7 @@
 
 <!-- WORKS/PROJECTS-->
 
-<section class="works">
+<section class="works" id="myProjects-page">
   <div class="card3">
     <img class="card1-img" src="./images/Snapshoot Portfolio.png" alt="This is an image for Project one">
     <img class="card1-img2" src="./images/desktop version card 1.png" alt="This is an image for Project one">
@@ -137,7 +139,7 @@
 
 <!-- ABOUT MY SELF -->
 
-<section class="about-myself">
+<section class="about-myself" id="myAbouts-page">
   <div class="container2">
     <div class="aboutme-all">
       <div class="about-section1">
@@ -183,7 +185,7 @@
 
 <!--Contact me form-->
 
-<section class="contact-me-section">
+<section class="contact-me-section" id="myContact-page">
   <div class="contact-me">
     <h2 class="contact-me-h2">Contact me</h2>
     <p class="contact-me-p">
@@ -214,5 +216,6 @@
     </form>
   </div>
 </section>
+<script src="script.js"></script>
 </body>
 </html>

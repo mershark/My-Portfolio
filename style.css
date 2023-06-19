@@ -6,6 +6,10 @@
   display: flex;
   background-color: white;
   align-items: center;
+  padding-top: 40px;
+  padding-right: 36px;
+  padding-left: 24px;
+  padding-bottom: 15px;
 }
 
 .my-logo {
@@ -28,59 +32,46 @@
 }
 
 .desktop-nav {
-  display: flex;
-  align-content: center;
-  list-style-type: none;
-  gap: 40px;
-  margin-right: 40px;
-  margin-bottom: 0;
-  margin-top: 0;
+  display: none;
+}
+
+/* side menu */
+.mobileNavigation {
+  height: 100%;
+  width: 0;
   position: fixed;
-  left: -100%;
-  top: 70px;
-  flex-direction: column;
+  z-index: 100;
+  top: 0;
+  left: 0;
   background: #6070FF;
   mix-blend-mode: multiply;
-  width: 100%;
-  text-align: center;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
-a {
+/* links */
+.mobileNavigation a {
+  padding: 40px 28px;
   text-decoration: none;
-  color: #344563;
+  font-size: 32px;
+  color: #fff;
+  transition: 0.3s;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
 }
 
-.hamburger {
-  display: block;
-  cursor: pointer;
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(2) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(2) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.line {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: black;
-}
-
-.nav-link {
-  margin: 16px 0;
-}
-
-.nav-link.active {
-  left: 0;
+/* close button */
+.mobileNavigation .killnav {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .body {
@@ -873,7 +864,6 @@ input {
   animation-duration: 3s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  overflow: none;
 }
 
 @keyframes h1animation {
@@ -897,16 +887,16 @@ input {
     height: 100%;
     display: flex;
     align-content: center;
-    margin-right: 1px;
+    margin-right: 0;
+    padding-right: 0;
     padding-left: 1px;
     padding-top: 25px;
   }
 
-  .hamburger {
+  .navonmo {
     display: none;
-    cursor: pointer;
-  }  
-
+  }
+  
   .my-logo {
     margin-right: auto;
     width: 60%;
@@ -914,8 +904,10 @@ input {
     margin-left: 155px;
   }
 
-  .my-menu {
-    display: none;
+  .nav-link {
+    display: flex;
+    text-decoration: none;
+    color: #344563;
   }
 
   .desktop-nav {
@@ -930,6 +922,7 @@ input {
     margin-right: 155px;
     gap: 32px;
     list-style: none;
+    margin-top: 0;
   }
 
   .body {
