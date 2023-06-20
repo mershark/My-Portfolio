@@ -11,9 +11,9 @@ function menukill() {
 }
 
 function closeMenu() {
-  menukill();
-  var menuItems = document.querySelectorAll('#mobilenav a');
-  menuItems.forEach(function(item) {
+  const menuItems = document.querySelectorAll('#mobilenav a');
+  menuItems.forEach (function(item) {
     item.removeEventListener('click', closeMenu);
   });
+  menukill();
 }

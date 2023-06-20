@@ -43,7 +43,7 @@
   z-index: 100;
   top: 0;
   left: 0;
-  background: #6070FF;
+  background: #6070ff;
   mix-blend-mode: multiply;
   overflow-x: hidden;
   padding-top: 60px;
@@ -129,6 +129,10 @@
   margin-bottom: 136px;
   margin-left: 24px;
   padding-left: 1px;
+}
+
+.my-menu {
+  display: none;
 }
 
 .ls {
@@ -896,7 +900,7 @@ input {
   .navonmo {
     display: none;
   }
-  
+
   .my-logo {
     margin-right: auto;
     width: 60%;
@@ -1088,7 +1092,7 @@ input {
   .card2:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
+    border-radius: 5px;
     border-color: #a7aeff;
   }
 
