@@ -15,8 +15,8 @@ function closeMenu() {
   menuItems.forEach((item) => {
     item.removeEventListener('click', closeMenu);
   });
+  menukill();
 }
 
 closeMenu();
 menuopen();
-menukill();
