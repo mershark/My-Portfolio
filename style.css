@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins, sans-serif');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
 .header-container {
   width: auto;
   height: 100%;
   display: flex;
+  background-color: white;
+  align-items: center;
+  padding-top: 40px;
+  padding-right: 36px;
+  padding-left: 24px;
+  padding-bottom: 15px;
 }
 
 .my-logo {
@@ -12,19 +18,62 @@
   font-size: 18px;
   line-height: 20px;
   margin-right: auto;
-  margin-top: 20px;
   width: auto;
   height: 20px;
   margin-left: 24px;
 }
 
 .my-menu {
-  position: absolute;
   width: 18px;
   height: 12px;
   right: 35px;
   top: 6px;
   padding: 15px;
+  display: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+/* side menu */
+.mobileNavigation {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* links */
+.mobileNavigation a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  transition: 0.3s;
+  line-height: 44px;
+  display: flex;
+  padding-left: 28px;
+  padding-top: 28px;
+}
+
+/* close button */
+.mobileNavigation .killnav {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .body {
@@ -102,10 +151,6 @@
   margin-right: 24px;
 }
 
-.desktop-nav {
-  display: none;
-}
-
 .card1-img2 {
   display: none;
 }
@@ -118,7 +163,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: left;
   padding: 16px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -138,7 +182,6 @@
 .card1-ul1 {
   display: flex;
   flex-direction: row;
-  align-items: left;
   padding: 1px;
   gap: 16px;
   width: 236px;
@@ -250,7 +293,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: left;
   padding: 16px;
   width: auto;
   height: auto;
@@ -273,7 +315,6 @@
 .card2-ul1 {
   display: flex;
   flex-direction: row;
-  align-items: left;
   gap: 16px;
   width: 236px;
   margin-top: 20px;
@@ -332,7 +373,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: left;
   padding: 16px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -353,7 +393,6 @@
 .card3-ul1 {
   display: flex;
   flex-direction: row;
-  align-items: left;
   padding: 1px;
   gap: 16px;
   width: 236px;
@@ -465,7 +504,6 @@
 .card4-ul1 {
   display: flex;
   flex-direction: row;
-  align-items: left;
   padding: 1px;
   gap: 16px;
   width: 236px;
@@ -719,7 +757,6 @@
   flex-direction: column;
   justify-content: left;
   list-style-type: none;
-  align-items: left;
   padding-left: 1px;
   padding-right: 14px;
 }
@@ -821,12 +858,11 @@ input {
   animation-duration: 3s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  overflow: none;
 }
 
 @keyframes h1animation {
   0% {
-    opacity: 1px;
+    opacity: 1;
     transform: translateY(-60px);
   }
 
@@ -840,29 +876,34 @@ input {
   /* LANDING PAGE */
 
   .header-container {
-    position: center;
     width: 100%;
     height: 100%;
     display: flex;
-    margin-top: 25px;
-    margin-right: 1px;
+    align-content: center;
+    margin-right: 0;
+    padding-right: 0;
     padding-left: 1px;
+    padding-top: 25px;
+  }
+
+  .navonmo {
+    display: none;
   }
 
   .my-logo {
     margin-right: auto;
-    margin-top: 20px;
     width: 60%;
     height: 20px;
     margin-left: 155px;
   }
 
-  .my-menu {
-    display: none;
+  .nav-link {
+    display: flex;
+    text-decoration: none;
+    color: #344563;
   }
 
   .desktop-nav {
-    display: inline;
     display: flex;
     align-items: center;
     text-align: center;
@@ -874,6 +915,7 @@ input {
     margin-right: 155px;
     gap: 32px;
     list-style: none;
+    margin-top: 0;
   }
 
   .body {
@@ -887,7 +929,7 @@ input {
     background-size: 100%;
     background-image: url(./images/Header\ bg@2x.png);
     border-bottom-left-radius: 70px;
-    margin-bottom: 76.54;
+    margin-bottom: 76.54px;
     width: 100%;
   }
 
@@ -928,13 +970,11 @@ input {
 
   .socials {
     margin-left: 27px;
-    align-content: left;
   }
 
   /* WORK/PROJECTS */
   .works {
     display: grid;
-    align-content: center;
     margin-top: 114px;
     margin-left: 24px;
     margin-right: 24px;
@@ -944,12 +984,11 @@ input {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: left;
     padding: 16px;
     width: auto;
     height: auto;
     background: #fff;
-    border: 1px solid #dfe1e6;
+    border: 1px #dfe1e6;
     border-radius: 16px;
     margin-right: 20px;
     margin-left: 20px;
@@ -958,14 +997,14 @@ input {
   .card1:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
+    border-radius: 5px;
     border-color: #a7aeff;
   }
 
   .card4:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
+    border-radius: 5px;
     border-color: #a7aeff;
   }
 
@@ -1024,7 +1063,6 @@ input {
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
-    align-items: left;
     padding: 16px;
     width: auto;
     height: auto;
@@ -1039,7 +1077,7 @@ input {
   .card2:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
+    border-radius: 5px;
     border-color: #a7aeff;
   }
 
@@ -1111,7 +1149,6 @@ input {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: left;
     padding: 16px;
     width: auto;
     height: auto;
@@ -1126,7 +1163,7 @@ input {
   .card3:hover {
     color: white;
     box-shadow: 6px 1px 90px rgba(167, 174, 255, 0.356);
-    border-radius: 5px solid;
+    border-radius: 5px;
     border-color: #a7aeff;
   }
 
@@ -1146,7 +1183,7 @@ input {
   .card4-ul2 {
     margin-left: 40px;
     margin-top: 24px;
-    padding-left: none;
+    padding-left: 0;
   }
 
   .card4-paragraph {

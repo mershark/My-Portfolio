@@ -6,22 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>My Portfolio</title>
+  <script src="script.js"></script>
 </head>
 
 <body class="body">
+  <header class="header-container">
+    <a href="" class="my-logo"><img src="./images/My Logo.png" alt="This is my Portfolio Logo"></a>
+    <nav class="navigation">
+      <a href="" class="my-menu"></a>
+      <ul class="desktop-nav">
+        <li class="nav-men">
+          <a href="#myProjects-page" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-men">
+          <a href="#myAbouts-page" class="nav-link">About</a>
+        </li>
+        <li class="nav-men">
+          <a href="#myContact-page" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div id="mobilenav" class="mobileNavigation">
+        <a href="javascript:void(0)" class="killnav" onclick="menukill()">&times;</a>
+        <a href="#myProjects-page" onclick="closeMenu()">Portfolio</a>
+        <a href="#myAbouts-page" onclick="closeMenu()">About</a>
+        <a href="#myContact-page" onclick="closeMenu()">Contact</a>
+      </div>
+      <span class="navonmo" onclick="menuopen()"><img src="./images/Union.png" alt=""></span>
+    </nav>
+  </header>
   <section class="container1">
-    <header class="header-container">
-      <a href="" class="my-logo"><img src="./images/My Logo.png" alt="This is my Portfolio Logo"></a>
-      <nav class="navigation">
-        <a href="" class="my-menu"><img src="./images/Union.png" alt="This is a mobile nav menu icon"></a>
-        <ul class="desktop-nav">
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-
     <div class="section1">
       <h1 class="introh1">I’m Mershark.<br>Glad to see you!</h1>
 
@@ -43,7 +56,7 @@
 
 <!-- WORKS/PROJECTS-->
 
-<section class="works">
+<section class="works" id="myProjects-page">
   <div class="card3">
     <img class="card1-img" src="./images/Snapshoot Portfolio.png" alt="This is an image for Project one">
     <img class="card1-img2" src="./images/desktop version card 1.png" alt="This is an image for Project one">
@@ -127,7 +140,7 @@
 
 <!-- ABOUT MY SELF -->
 
-<section class="about-myself">
+<section class="about-myself" id="myAbouts-page">
   <div class="container2">
     <div class="aboutme-all">
       <div class="about-section1">
@@ -173,7 +186,7 @@
 
 <!--Contact me form-->
 
-<section class="contact-me-section">
+<section class="contact-me-section" id="myContact-page">
   <div class="contact-me">
     <h2 class="contact-me-h2">Contact me</h2>
     <p class="contact-me-p">
