@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins, sans-serif');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
 .header-container {
   width: auto;
@@ -55,14 +55,17 @@
 
 /* links */
 .mobileNavigation a {
-  padding: 40px 28px;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 32px;
   color: #fff;
   transition: 0.3s;
   font-weight: 700;
   line-height: 44px;
   display: flex;
+  padding-left: 28px;
+  padding-top: 28px;
 }
 
 /* close button */
