@@ -1,12 +1,28 @@
 function menuopen() {
-  document.getElementById('mobilenav').style.width = '100%';
-  document.getElementById('main').style.marginLeft = '250px';
+  const mobilenav = document.getElementById('mobilenav');
+  if (mobilenav) {
+    mobilenav.style.width = '100%';
+  }
+  
+  const main = document.getElementById('main');
+  if (main) {
+    main.style.marginLeft = '250px';
+  }
+  
   document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
 }
 
 function menukill() {
-  document.getElementById('mobilenav').style.width = '0';
-  document.getElementById('main').style.marginLeft = '0';
+  const mobilenav = document.getElementById('mobilenav');
+  if (mobilenav) {
+    mobilenav.style.width = '0';
+  }
+  
+  const main = document.getElementById('main');
+  if (main) {
+    main.style.marginLeft = '0';
+  }
+  
   document.body.style.backgroundColor = 'white';
 }
 
@@ -17,6 +33,3 @@ function closeMenu() {
   });
   menukill();
 }
-
-closeMenu();
-menuopen();
