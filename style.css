@@ -968,7 +968,6 @@ input {
 
   .socials {
     margin-left: 27px;
-    align-content: left;
   }
 
   /* WORK/PROJECTS */
@@ -983,7 +982,6 @@ input {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: left;
     padding: 16px;
     width: auto;
     height: auto;

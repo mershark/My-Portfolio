@@ -12,7 +12,7 @@ function menukill() {
 
 function closeMenu() {
   const menuItems = document.querySelectorAll('#mobilenav a');
-  menuItems.forEach (function(item) {
+  menuItems.forEach((item) => {
     item.removeEventListener('click', closeMenu);
   });
   menukill();
