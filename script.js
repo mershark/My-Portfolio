@@ -2,14 +2,12 @@ function menuopen() {
   document.getElementById('mobilenav').style.width = '100%';
   document.getElementById('main').style.marginLeft = '250px';
   document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
-  closeMenu()
 }
 
 function menukill() {
   document.getElementById('mobilenav').style.width = '0';
   document.getElementById('main').style.marginLeft = '0';
   document.body.style.backgroundColor = 'white';
-  menuopen();
 }
 
 function closeMenu() {
@@ -17,5 +15,8 @@ function closeMenu() {
   menuItems.forEach((item) => {
     item.removeEventListener('click', closeMenu);
   });
-  menukill();
 }
+
+closeMenu();
+menuopen();
+menukill();
