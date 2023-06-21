@@ -151,14 +151,6 @@
   margin-right: 24px;
 }
 
-.card1-img2 {
-  display: none;
-}
-
-.card2-img2 {
-  display: none;
-}
-
 .card1 {
   box-sizing: border-box;
   display: flex;
@@ -300,6 +292,8 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 50px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .card2-h {
@@ -355,16 +349,29 @@
 }
 
 .card2-ul2 {
-  display: flex;
-  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  padding-bottom: 20px;
+  padding-top: 16px;
+}
+
+.card2-ul2 li {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  /* box */
   align-items: center;
-  padding: 16px;
-  gap: 8px;
-  width: 214px;
-  height: 24px;
-  margin-top: 16px;
-  margin-bottom: 1%;
-  padding-left: 0;
+  padding: 4px 12px;
+  width: auto;
+  height: auto;
+  background: #EBEBFF;
+  border-radius: 8px;
 }
 
 /* card three starts from here */
@@ -378,6 +385,8 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 50px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .card3-h {
@@ -872,6 +881,148 @@ input {
   }
 }
 
+/* Popup styling starts here */
+.mainone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(193, 199, 208, 0.8); /* Same color with 50% transparency */
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.popup-inner {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  height: 80%;
+  width: 80%;
+  border: 1px;
+  border-radius: 16px;
+  height: auto;
+}
+
+.popup-title {
+  margin-top: 0;
+  margin-bottom: 0px;
+  display: flex;
+  width: 80%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.popup-close {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  font-size: 40px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: rgba(103, 121, 142, 1);
+}
+
+.popup-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+}
+
+.popup-image2 {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.popup-details {
+  text-align: left;
+}
+
+.popup-description {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup-technologies {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  padding-bottom: 20px;
+  padding-top: 16px;
+}
+
+.popup-technologies li {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  /* box */
+  align-items: center;
+  padding: 4px 12px;
+  width: auto;
+  height: auto;
+  background: #EBEBFF;
+  border-radius: 8px;
+}
+
+.popup-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.popup-button {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 12px 22px;
+  width: 100%;
+  height: 48px;
+  left: 9px;
+  bottom: 4px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  /* text */
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  color: #396df2;
+  gap: 14px;
+}
+
 @media (min-width: 768px) {
   /* LANDING PAGE */
 
@@ -973,6 +1124,28 @@ input {
   }
 
   /* WORK/PROJECTS */
+  .popup-details {
+    display: flex;
+  }
+
+  .popup-buttons {
+    display: flex;
+  }
+
+  .popup-description {
+    width: 60%;
+  }
+
+  .popup-technologies {
+    width: 40%;
+    padding-left: 15px;
+  }
+
+  .popup-inner {
+    max-width: 900px;
+  }
+
+
   .works {
     display: grid;
     margin-top: 114px;
@@ -990,7 +1163,7 @@ input {
     background: #fff;
     border: 1px #dfe1e6;
     border-radius: 16px;
-    margin-right: 20px;
+    margin-right: 20%;
     margin-left: 20px;
   }
 
@@ -1013,18 +1186,10 @@ input {
     margin-left: 1px;
   }
 
-  .card1-img {
-    display: none;
-  }
-
-  .card2-img {
-    display: none;
-  }
-
-  .card1-img2 {
+  .card1-img1 {
     display: inline;
     margin-right: 46px;
-    width: 50%;
+    width: auto;
   }
 
   .card2-img2 {
@@ -1070,8 +1235,8 @@ input {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 142px;
+    margin-left: 142px;
   }
 
   .card2:hover {
@@ -1133,6 +1298,10 @@ input {
     margin-left: 1%;
   }
 
+  .card3-all {
+    padding-left: 20px;
+  }
+
   .card3-paragraph {
     margin-right: 46px;
   }
@@ -1156,8 +1325,8 @@ input {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 142px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 142px;
+    margin-left: 142px;
   }
 
   .card3:hover {
