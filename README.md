@@ -120,6 +120,12 @@ You can deploy this project by transferring the files in your local repository o
 - GitHub: [@githubhandle](https://github.com/mershark)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mershark/)
 
+👤 **Victor Correia**
+
+- GitHub: [@githubhandle](https://github.com/dvcorreia1984)
+- Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
