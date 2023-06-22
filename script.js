@@ -3,12 +3,12 @@ function menuopen() {
   if (mobilenav) {
     mobilenav.style.width = '100%';
   }
-  
+
   const main = document.getElementById('main');
   if (main) {
     main.style.marginLeft = '250px';
   }
-  
+
   document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
 }
 
@@ -17,12 +17,12 @@ function menukill() {
   if (mobilenav) {
     mobilenav.style.width = '0';
   }
-  
+
   const main = document.getElementById('main');
   if (main) {
     main.style.marginLeft = '0';
   }
-  
+
   document.body.style.backgroundColor = 'white';
 }
 
@@ -36,11 +36,9 @@ function closeMenu() {
 
 // styling for card two starts here
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
   function generateProjects() {
-    var projectArray = [
+    const projectArray = [
       {
         cardClass: "card3",
         image1: "./images/Snapshoot Portfolio.png",
@@ -77,20 +75,20 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         cardClass: "card2",
         image1: "./images/port 4.png",
-        title: "Multi-Post Stories",
-        canopy: "CANOPY",
-        backEndDev: "Back End Dev",
-        year: "2015",
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: ["HTML", "CSS", "JavaScript"]
+        title: 'Multi-Post Stories',
+        canopy: 'CANOPY',
+        backEndDev: 'Back End Dev',
+        year: '2015',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        descriptions: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        technologies: ['HTML', 'CSS', 'JavaScript']
       },
     ];
 
-    var outputElement = document.getElementById('output');
+    const outputElement = document.getElementById('output');
 
     projectArray.forEach(function(project) {
-      var cardDiv = document.createElement('div');
+      const cardDiv = document.createElement('div');
       cardDiv.classList.add(project.cardClass);
       cardDiv.innerHTML = `
         <img class="card1-img" src="${project.image1}" alt="This is an image for Project">
@@ -111,12 +109,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
       outputElement.appendChild(cardDiv);
 
-      var button = cardDiv.querySelector('.card3-button');
+      const button = cardDiv.querySelector('.card3-button');
       button.addEventListener('click', function() {
-        var popup = document.createElement('div');
+        const popup = document.createElement('div');
         popup.classList.add('popup');
 
-        var popupContent = `
+        const popupContent = `
         <section class='mainone'>
           <div class="popup-inner">
             <h3 class="popup-title">${project.title}</h3>
@@ -147,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
         popup.innerHTML = popupContent;
         document.body.appendChild(popup);
 
-        var closeButton = popup.querySelector('.popup-close');
+        const closeButton = popup.querySelector('.popup-close');
         closeButton.addEventListener('click', function() {
           document.body.removeChild(popup);
         });
