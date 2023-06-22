@@ -23,7 +23,7 @@ const menukill = () => {
     main.style.marginLeft = '0';
   }
 
-  document.body.style.backgroundColor = 'white';
+  document.body.style.backgroundColor = 'rgba(255, 255, 255, 1)';
 };
 
 const closeMenu = () => {
@@ -33,7 +33,6 @@ const closeMenu = () => {
   });
   menukill();
 };
-closeMenu();
 
 // styling for card two starts here
 
