@@ -34,6 +34,9 @@ function closeMenu() {
   menukill();
 }
 
+closeMenu();
+menuopen();
+
 // styling for card two starts here
 
 document.addEventListener('DOMContentLoaded', () => {
