@@ -828,7 +828,6 @@ input {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 130px;
   height: 48px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
@@ -1024,6 +1023,8 @@ input {
   align-items: center;
   color: #396df2;
 }
+  /*contact me error message styling*/
+
 
 @media (min-width: 768px) {
   /* LANDING PAGE */
