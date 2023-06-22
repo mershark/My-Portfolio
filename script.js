@@ -36,8 +36,8 @@ function closeMenu() {
 
 // styling for card two starts here
 
-document.addEventListener('DOMContentLoaded', function () {
-  function generateProjects() {
+document.addEventListener('DOMContentLoaded', () => {
+  function generateProjects = () => {
     const projectArray = [
       {
         cardClass: 'card3',
