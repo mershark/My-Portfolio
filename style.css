@@ -1044,6 +1044,10 @@ input {
     display: none;
   }
 
+  .mobileNavigation {
+    display: none;
+  }
+
   .my-logo {
     margin-right: auto;
     width: 60%;

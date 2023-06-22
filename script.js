@@ -1,4 +1,4 @@
-function menuopen() {
+const menuopen = () => {
   const mobilenav = document.getElementById('mobilenav');
   if (mobilenav) {
     mobilenav.style.width = '100%';
@@ -10,9 +10,9 @@ function menuopen() {
   }
 
   document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
-}
+};
 
-function menukill() {
+const menukill = () => {
   const mobilenav = document.getElementById('mobilenav');
   if (mobilenav) {
     mobilenav.style.width = '0';
@@ -24,18 +24,16 @@ function menukill() {
   }
 
   document.body.style.backgroundColor = 'white';
-}
+};
 
-function closeMenu() {
+const closeMenu = () => {
   const menuItems = document.querySelectorAll('#mobilenav a');
   menuItems.forEach((item) => {
     item.removeEventListener('click', closeMenu);
   });
   menukill();
-}
-
+};
 closeMenu();
-menuopen();
 
 // styling for card two starts here
 
