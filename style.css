@@ -1150,6 +1150,12 @@ input {
     height: 450px;
   }
 
+  #output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 
   .works {
     display: grid;
@@ -1163,7 +1169,6 @@ input {
     display: flex;
     flex-direction: row;
     padding: 16px;
-    width: auto;
     height: auto;
     background: #fff;
     border: 1px #dfe1e6;
@@ -1202,6 +1207,11 @@ input {
     width: 50%;
   }
 
+  .card1-img {
+    width: 50%;
+    height: 488px;
+  }
+
   .card1-all {
     display: flex;
     flex-direction: column;
@@ -1232,9 +1242,8 @@ input {
     box-sizing: border-box;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: left;
+    justify-content: space-between;
     padding: 16px;
-    width: auto;
     height: auto;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -1324,7 +1333,6 @@ input {
     display: flex;
     flex-direction: row;
     padding: 16px;
-    width: auto;
     height: auto;
     background: #fff;
     border: 1px solid #dfe1e6;
