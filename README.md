@@ -85,7 +85,7 @@ Any code editors
 
 ### Setup
 
-Clone this repository to your desired folder by:
+Clone this repository to your desired folder by.
 cd my-folder
 git clone https://github.com/mershark/My-Portfolio.git
 cd my-project
@@ -107,7 +107,7 @@ npx stylelint "**/*.{css,scss}
 
 ### Deployment
 
-You can deploy this project by transferring the files in your local repository onto your sever
+You can deploy this project by transferring the files in your local repository onto your server
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -140,7 +140,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, your support will be very much appreciate, kindly contact me.
+If you like this project, your support will be very much appreciated, kindly contact me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
