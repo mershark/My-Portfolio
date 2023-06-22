@@ -85,7 +85,7 @@ Any code editors
 
 ### Setup
 
-Clone this repository to your desired folder by:
+Clone this repository to your desired folder by.
 cd my-folder
 git clone https://github.com/mershark/My-Portfolio.git
 cd my-project
@@ -107,7 +107,7 @@ npx stylelint "**/*.{css,scss}
 
 ### Deployment
 
-You can deploy this project by transferring the files in your local repository onto your sever
+You can deploy this project by transferring the files in your local repository onto your server
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -119,6 +119,12 @@ You can deploy this project by transferring the files in your local repository o
 
 - GitHub: [@githubhandle](https://github.com/mershark)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mershark/)
+
+👤 **Victor Correia**
+
+- GitHub: [@githubhandle](https://github.com/dvcorreia1984)
+- Twitter: [@twitterhandle](https://twitter.com/dvcorreia1984)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvcorreia)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, your support will be very much appreciate, kindly contact me.
+If you like this project, your support will be very much appreciated, kindly contact me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +161,5 @@ I would like to thank my code reviewer who gave me insightful reviews to help co
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
