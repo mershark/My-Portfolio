@@ -882,17 +882,6 @@ input {
 }
 
 /* Popup styling starts here */
-.mainone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(193, 199, 208, 0.8); /* Same color with 50% transparency */
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-}
 
 .popup {
   position: fixed;
