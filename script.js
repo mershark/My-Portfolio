@@ -20,6 +20,7 @@ const closeMenu = () => {
   menukill();
 };
 
+// eslint-disable-next-line no-unused-vars
 const menuopen = () => {
   const mobilenav = document.getElementById('mobilenav');
   if (mobilenav) {
