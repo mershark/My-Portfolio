@@ -133,8 +133,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <ul class="popup-technologies">
                   ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
                   <div class="popup-buttons">
-                    <button class="popup-button">See live <img src='./images/Icon.svg' alt='An icon'></button>
-                    <button class="popup-button">See source <img src='./images/Vectorpopup.svg' alt='An icon'></button>
+                    <button class="popup-button">See live<img src='./images/Icon.svg' alt='An icon'></button>
+                    <button class="popup-button">See source<img src='./images/Vectorpopup.svg' alt='An icon'></button>
                   </div>
                 </ul>
               </div>
