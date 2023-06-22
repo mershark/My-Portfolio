@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const outputElement = document.getElementById('output');
 
-    projectArray.forEach(function (project) {
+    projectArray.forEach((project) => {
       const cardDiv = document.createElement('div');
       cardDiv.classList.add(project.cardClass);
       cardDiv.innerHTML = `
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </ul>
           <p class="card3-paragraph">${project.description}</p>
           <ul class="card2-ul2">
-            ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+            ${project.technologies.map((tech) => `<li>${tech}</li>`).join('')}
           </ul>
           <button class="card3-button">See projects</button>
         </div>
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
       outputElement.appendChild(cardDiv);
 
       const button = cardDiv.querySelector('.card3-button');
-      button.addEventListener('click', function () {
+      button.addEventListener('click', () => {
         const popup = document.createElement('div');
         popup.classList.add('popup');
 
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="popup-details">
                 <p class="popup-description">${project.descriptions}</p>
                 <ul class="popup-technologies">
-                  ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+                  ${project.technologies.map((tech) => `<li>${tech}</li>`).join('')}
                   <div class="popup-buttons">
                     <button class="popup-button">See live<img src='./images/Icon.svg' alt='An icon'></button>
                     <button class="popup-button">See source<img src='./images/Vectorpopup.svg' alt='An icon'></button>
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.appendChild(popup);
 
         const closeButton = popup.querySelector('.popup-close');
-        closeButton.addEventListener('click', function () {
+        closeButton.addEventListener('click', () => {
           document.body.removeChild(popup);
         });
       });
