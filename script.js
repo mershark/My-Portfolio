@@ -36,58 +36,58 @@ function closeMenu() {
 
 // styling for card two starts here
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   function generateProjects() {
     const projectArray = [
       {
-        cardClass: "card3",
-        image1: "./images/Snapshoot Portfolio.png",
-        title: "Tonic",
-        canopy: "CANOPY",
-        backEndDev: "Back End Dev",
-        year: "2015",
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: ["HTML", "CSS", "JavaScript"]
+        cardClass: 'card3',
+        image1: './images/Snapshoot Portfolio.png',
+        title: 'Tonic',
+        canopy: 'CANOPY',
+        backEndDev: 'Back End Dev',
+        year: '2015',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        descriptions: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
       },
       {
-        cardClass: "card2",
-        image1: "./images/port2.png",
-        title: "Multi-Post Stories",
-        canopy: "CANOPY",
-        backEndDev: "Back End Dev",
-        year: "2015",
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: ["HTML", "CSS", "JavaScript"]
+        cardClass: 'card2',
+        image1: './images/port2.png',
+        title: 'Multi-Post Stories',
+        canopy: 'CANOPY',
+        backEndDev: 'Back End Dev',
+        year: '2015',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        descriptions: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
       },
       {
-        cardClass: "card3",
-        image1: "./images/Port 3.png",
-        title: "Tonic",
-        canopy: "CANOPY",
-        backEndDev: "Back End Dev",
-        year: "2015",
-        description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-        descriptions: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: ["HTML", "CSS", "JavaScript"]
+        cardClass: 'card3',
+        image1: './images/Port 3.png',
+        title: 'Tonic',
+        canopy: 'CANOPY',
+        backEndDev: 'Back End Dev',
+        year: '2015',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        descriptions: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
       },
       {
-        cardClass: "card2",
-        image1: "./images/port 4.png",
+        cardClass: 'card2',
+        image1: './images/port 4.png',
         title: 'Multi-Post Stories',
         canopy: 'CANOPY',
         backEndDev: 'Back End Dev',
         year: '2015',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         descriptions: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
       },
     ];
 
     const outputElement = document.getElementById('output');
 
-    projectArray.forEach(function(project) {
+    projectArray.forEach(function (project) {
       const cardDiv = document.createElement('div');
       cardDiv.classList.add(project.cardClass);
       cardDiv.innerHTML = `
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
       outputElement.appendChild(cardDiv);
 
       const button = cardDiv.querySelector('.card3-button');
-      button.addEventListener('click', function() {
+      button.addEventListener('click', function () {
         const popup = document.createElement('div');
         popup.classList.add('popup');
 
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(popup);
 
         const closeButton = popup.querySelector('.popup-close');
-        closeButton.addEventListener('click', function() {
+        closeButton.addEventListener('click', function () {
           document.body.removeChild(popup);
         });
       });
