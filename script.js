@@ -10,6 +10,7 @@ function menuopen() {
   }
 
   document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
+  menuopen();
 }
 
 function menukill() {
