@@ -163,13 +163,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //  CONTACT ME FORM VALIDATION SCRIPT
+// eslint-disable-next-line no-unused-vars
 const formValidation = () => {
-  const emailInput = document.getElementById("form-email");
-  const errorMessage = document.getElementById("error-message");
+  const emailInput = document.getElementById('form-email');
+  const errorMessage = document.getElementById('error-message');
 
   const lowercaseEmail = emailInput.value.toLowerCase();
   if (emailInput.value !== lowercaseEmail) {
-    errorMessage.textContent = "Please enter your email address in lowercase letters.";
+    errorMessage.textContent = 'Please enter your email address in lowercase letters.';
     return false;
   }
   errorMessage.textContent = "";

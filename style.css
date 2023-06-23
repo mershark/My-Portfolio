@@ -1023,7 +1023,8 @@ input {
   align-items: center;
   color: #396df2;
 }
-  /*contact me error message styling*/
+
+/* contact me error message styling */
 #error-message {
   color: white;
   font-size: 15px;
