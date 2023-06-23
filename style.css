@@ -1024,7 +1024,11 @@ input {
   color: #396df2;
 }
   /*contact me error message styling*/
-
+  #error-message {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+  }
 
 @media (min-width: 768px) {
   /* LANDING PAGE */
