@@ -187,3 +187,47 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// STORING FORM DATA
+// Function to save form data to local storage
+const collectData = () => {
+  const nameField = document.getElementById("form-name");
+  const emailField = document.getElementById("form-email");
+  const messageField = document.getElementById("form-message");
+
+  const formDataStored = {
+    fullName: nameField.value,
+    email: emailField.value,
+    message: messageField.value
+  };
+
+  localStorage.setItem("formDataStored", JSON.stringify(formDataStored));
+};
+
+// Function to load form data from local storage
+const loadCollectData = () => {
+  const formDataStored = localStorage.getItem('formDataStored');
+
+  if (formDataStored) {
+    const { fullName, email, message } = JSON.parse(formDataStored);
+
+    const nameField = document.getElementById('form-name');
+    const emailField = document.getElementById('form-email');
+    const messageField = document.getElementById('form-message');
+
+    nameField.value = fullName;
+    emailField.value = email;
+    messageField.value = message;
+  }
+};
+
+// listeners to save data when changed
+const nameField = document.getElementById('form-name');
+const emailField = document.getElementById('form-email');
+const messageField = document.getElementById('form-message');
+
+nameField.addEventListener('change', collectData);
+emailField.addEventListener('change', collectData);
+messageField.addEventListener('change', collectData);
+
+// Calling function when the website starts
