@@ -1026,6 +1026,12 @@ input {
   gap: 14px;
 }
 
+#error-message {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
 @media (min-width: 768px) {
   /* LANDING PAGE */
 
