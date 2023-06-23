@@ -231,3 +231,4 @@ emailField.addEventListener('change', collectData);
 messageField.addEventListener('change', collectData);
 
 // Calling function when the website starts
+window.addEventListener("load", loadCollectData);
