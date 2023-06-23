@@ -163,7 +163,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //  CONTACT ME FORM VALIDATION SCRIPT
-// eslint-disable-next-line no-unused-vars
 const formValidation = () => {
   const emailInput = document.getElementById('form-email');
   const errorMessage = document.getElementById('error-message');
