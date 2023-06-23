@@ -191,14 +191,14 @@ form.addEventListener('submit', (event) => {
 // STORING FORM DATA
 // Function to save form data to local storage
 const collectData = () => {
-  const nameField = document.getElementById("form-name");
-  const emailField = document.getElementById("form-email");
-  const messageField = document.getElementById("form-message");
+  const nameField = document.getElementById('form-name');
+  const emailField = document.getElementById('form-email');
+  const messageField = document.getElementById('form-message');
 
   const formDataStored = {
     fullName: nameField.value,
     email: emailField.value,
-    message: messageField.value
+    message: messageField.value,
   };
 
   localStorage.setItem("formDataStored", JSON.stringify(formDataStored));
