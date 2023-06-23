@@ -201,7 +201,7 @@ const collectData = () => {
     message: messageField.value,
   };
 
-  localStorage.setItem("formDataStored", JSON.stringify(formDataStored));
+  localStorage.setItem('formDataStored', JSON.stringify(formDataStored));
 };
 
 // Function to load form data from local storage
@@ -231,4 +231,4 @@ emailField.addEventListener('change', collectData);
 messageField.addEventListener('change', collectData);
 
 // Calling function when the website starts
-window.addEventListener("load", loadCollectData);
+window.addEventListener('load', loadCollectData);
