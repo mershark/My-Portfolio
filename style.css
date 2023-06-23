@@ -1029,6 +1029,9 @@ input {
   color: white;
   font-size: 15px;
   margin-top: 15px;
+  position: relative;
+  top: -80px;
+  flex-direction: row;
 }
 
 @media (min-width: 768px) {
@@ -1602,5 +1605,15 @@ input {
     height: 48px;
     margin-right: 300px;
     margin-left: 300px;
+  }
+
+  #error-message {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    justify-content: center;
   }
 }
