@@ -173,6 +173,6 @@ const formValidation = () => {
     errorMessage.textContent = 'Please enter your email address in lowercase letters.';
     return false;
   }
-  errorMessage.textContent = "";
+  errorMessage.textContent = '';
   return true;
-}
+};
