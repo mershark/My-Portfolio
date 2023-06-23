@@ -161,3 +161,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
   generateProjects();
 });
+
+//  CONTACT ME FORM VALIDATION SCRIPT
+const formValidation = () => {
+  const emailInput = document.getElementById('form-email');
+  const errorMessage = document.getElementById('error-message');
+
+  const lowercaseEmail = emailInput.value.toLowerCase();
+  if (emailInput.value !== lowercaseEmail) {
+    errorMessage.textContent = 'Please enter your email address in lowercase letters.';
+    return false;
+  }
+  errorMessage.textContent = '';
+  return true;
+};
+
+const form = document.querySelector('#form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const isValid = formValidation();
+
+  if (isValid) {
+    form.submit();
+  }
+});

@@ -828,7 +828,6 @@ input {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 130px;
   height: 48px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
@@ -1023,6 +1022,16 @@ input {
   justify-content: space-evenly;
   align-items: center;
   color: #396df2;
+}
+
+/* contact me error message styling */
+#error-message {
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  position: relative;
+  top: -80px;
+  flex-direction: row;
 }
 
 @media (min-width: 768px) {
@@ -1596,5 +1605,15 @@ input {
     height: 48px;
     margin-right: 300px;
     margin-left: 300px;
+  }
+
+  #error-message {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    justify-content: center;
   }
 }

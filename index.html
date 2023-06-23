@@ -117,13 +117,13 @@
       a feature that you need built or a project <br> that needs coding.
       I’d love to help with it!
     </p>
-    <form class="form-all" action="https://formspree.io/f/xknalvqr" method="POST">
+    <form class="form-all" id="form" action="https://formspree.io/f/xknalvqr" method="POST">
       <ul class="form-ul">
         <li>
           <input type="text" name="full name" id="form-name" placeholder="First and last name" required maxlength="30">
         </li>
         <li>
-          <input type="email" name="Email" id="form-email" placeholder="Email (email@gmail.com)" required="">        
+          <input type="email" name="Email" id="form-email" placeholder="Email (email@gmail.com)" required>        
         </li>
         <li>
           <textarea id="form-message" name="message" rows="4" cols="50" placeholder="Write your message here..." required maxlength="500"></textarea>   
@@ -131,6 +131,7 @@
         <li class="contact-me-button">
           <button type="submit" id="submit-button">Get in touch</button>
         </li>
+        <li id="error-message" class="error-message"></li>
       </ul>
     </form>
   </div>
