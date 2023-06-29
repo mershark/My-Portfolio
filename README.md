@@ -60,7 +60,7 @@
 
 
 
-- [Live Demo Link](https://mershark.github.io/)
+- [Live Demo Link](https://mershark.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
