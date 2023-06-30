@@ -7,7 +7,7 @@
 
 </div>
 
-![Mersharks-removebg-preview](https://github.com/mershark/My-Portfolio/assets/113654948/bdcf71f4-b864-4248-a7c5-b773a51597e9)
+![mershark](https://github.com/mershark/My-Portfolio/assets/113654948/c743e181-90d6-4635-9950-21c18af4784d)
 
 
 # 📗 Table of Contents
