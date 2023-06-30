@@ -7,6 +7,9 @@
 
 </div>
 
+![Mersharks-removebg-preview](https://github.com/mershark/My-Portfolio/assets/113654948/bdcf71f4-b864-4248-a7c5-b773a51597e9)
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
